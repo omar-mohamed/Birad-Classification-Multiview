@@ -232,35 +232,32 @@ class ModelFactory:
             weights=base_weights,
             pooling=FLAGS.final_layer_pooling)
 
-        chexnet_classifier_exists = False
         if FLAGS.use_chexnet_weights and FLAGS.visual_model_name == 'DenseNet121':
             base_model = self.load_chexnet_weights(base_model, base_model_img_input, FLAGS.chexnet_weights_path)
-            chexnet_classifier_exists = True
 
         if FLAGS.pop_conv_layers > 0:
             base_model = self.pop_conv_layers(base_model, base_model_img_input, FLAGS.pop_conv_layers)
-            chexnet_classifier_exists = False
 
         if FLAGS.conv_layers_to_train != -1:
             base_model = self.set_trainable_layers(base_model, FLAGS.conv_layers_to_train)
 
         classifier = None
-        if FLAGS.classes is not None and FLAGS.classes != [] and not chexnet_classifier_exists:
-            base_model_output = base_model.layers[-1].output
-            output_unrolled_length = self.get_output_unrolled_size(base_model_output.shape)
-
-            classifier = get_classifier(output_unrolled_length, FLAGS.multi_label_classification,
-                                        FLAGS.classifier_layer_sizes, len(FLAGS.classes))
+        # if FLAGS.classes is not None and FLAGS.classes != [] and not chexnet_classifier_exists:
+        #     base_model_output = base_model.layers[-1].output
+        #     output_unrolled_length = self.get_output_unrolled_size(base_model_output.shape)
+        #
+        #     classifier = get_classifier(output_unrolled_length, FLAGS.multi_label_classification,
+        #                                 FLAGS.classifier_layer_sizes, len(FLAGS.classes))
 
         loaded_model = self.concat_models(downscaling_model, base_model, classifier, img_input, base_model_img_input)
 
-        if FLAGS.show_model_summary:
-            loaded_model.summary()
-            if downscaling_model is not None:
-                downscaling_model.summary()
-            base_model.summary()
-            if classifier is not None:
-                classifier.summary()
+        # if FLAGS.show_model_summary:
+        #     loaded_model.summary()
+        #     if downscaling_model is not None:
+        #         downscaling_model.summary()
+        #     base_model.summary()
+        #     if classifier is not None:
+        #         classifier.summary()
 
         return loaded_model
 
