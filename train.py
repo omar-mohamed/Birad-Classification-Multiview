@@ -1,6 +1,5 @@
 from __future__ import absolute_import, division
 
-from visual_model_selector import ModelFactory
 from configs import argHandler  # Import the default arguments
 from model_utils import get_optimizer, get_multilabel_class_weights, get_generator, get_class_weights
 from tensorflow.keras import metrics
@@ -14,8 +13,6 @@ import json
 
 FLAGS = argHandler()
 FLAGS.setDefaults()
-
-model_factory = ModelFactory()
 
 
 # load training and test set file names

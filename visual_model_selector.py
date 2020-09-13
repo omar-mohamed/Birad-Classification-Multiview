@@ -250,7 +250,7 @@ class ModelFactory:
         #                                 FLAGS.classifier_layer_sizes, len(FLAGS.classes))
 
         loaded_model = self.concat_models(downscaling_model, base_model, classifier, img_input, base_model_img_input)
-
+        
         # if FLAGS.show_model_summary:
         #     loaded_model.summary()
         #     if downscaling_model is not None:

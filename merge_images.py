@@ -1,10 +1,6 @@
 import pandas as pd
 import os
-import numpy as np
-import matplotlib.pyplot as plt
-import cv2
-from PIL import Image
-from skimage.transform import resize
+
 from tqdm import tqdm
 
 csv_name = 'all_data_dm_cm.csv'
@@ -34,7 +30,7 @@ for i, row in dataset_df.iterrows():
     image_name += '.jpg'
     if 'CM' in image_name:
         dm_name = image_name.replace("CM", "DM")
-        if os.path.isfile(f"./data/images/{image_name}" and f"./data/images/{dm_name}"):
+        if os.path.isfile(f"./data/images/{image_name}") and os.path.isfile(f"./data/images/{dm_name}"):
             row['Image_name_DM'] = os.path.splitext(dm_name)[0]
             add_row(new_csv, row)
 

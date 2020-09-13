@@ -9,7 +9,11 @@ class MultiViewModel(tf.keras.Model):
         super(MultiViewModel, self).__init__()
         model_factory = ModelFactory()
         self.visual_model1=model_factory.get_model(FLAGS)
+        self.visual_model1._name="visual_model_1"
+
         self.visual_model2=model_factory.get_model(FLAGS)
+        self.visual_model2._name="visual_model_2"
+
         self.classifier = get_classifier(
             model_factory.get_output_unrolled_size(self.visual_model1.layers[-1].output.shape)*2,
             FLAGS.multi_label_classification, FLAGS.classifier_layer_sizes, len(FLAGS.classes))
