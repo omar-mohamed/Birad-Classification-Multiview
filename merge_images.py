@@ -26,7 +26,7 @@ new_csv = make_dict(dataset_df)
 pbar = tqdm(total=len(dataset_df))
 
 for i, row in dataset_df.iterrows():
-    image_name = row['Image_name']
+    image_name = row['Image_name'].strip()
     image_name += '.jpg'
     if 'CM' in image_name:
         dm_name = image_name.replace("CM", "DM")
