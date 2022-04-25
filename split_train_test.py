@@ -2,17 +2,29 @@ import pandas as pd
 import os
 import numpy as np
 
-dataset_df = pd.read_csv('./data/all_data_dm_cm.csv')
+dataset_df = pd.read_csv('./data/all_data_path_cc_mlo.csv')
 
 
 
-test_set_fraction=0.2
+test_set_fraction=0.15
 
 shuffle=True
 
 if shuffle:
     dataset_df = dataset_df.sample(frac=1., random_state=np.random.randint(1,100))
 
+
+def get_sparse_labels_mapping(y):
+    labels = np.zeros(y.shape[0],dtype=int)
+    class_counts = np.zeros(3,dtype=int)
+    mapping = {'Normal': 0, 'Benign': 1, 'Malignant': 2}
+    index = 0
+    for label in y:
+        labels[index] = mapping[label]
+        class_counts[mapping[label]] += 1
+
+        index += 1
+    return labels,class_counts
 
 def get_sparse_labels(y):
     labels = np.zeros(y.shape[0],dtype=int)
@@ -37,8 +49,8 @@ def add_row(dict,df_row):
         dict[key].append(df_row[key])
 
 def split_train_test(dataset_df):
-    labels= dataset_df['BIRADS']
-    sparse_labels,class_counts=get_sparse_labels(labels)
+    labels= dataset_df['Pathology Classification/ Follow up']
+    sparse_labels,class_counts=get_sparse_labels_mapping(labels)
 
     test_fraction_count = (class_counts*test_set_fraction).astype(int)
     print("Number of records for each class: {}".format(class_counts))
@@ -64,6 +76,6 @@ train_dict,test_dict = split_train_test(dataset_df)
 training_df=pd.DataFrame(train_dict)
 testing_df=pd.DataFrame(test_dict)
 
-training_df.to_csv(os.path.join("./data","training_set_dm_cm.csv"), index=False)
+training_df.to_csv(os.path.join("./data","training_set_path_cc_mlo_2.csv"), index=False)
 
-testing_df.to_csv(os.path.join("./data","testing_set_dm_cm.csv"), index=False)
+testing_df.to_csv(os.path.join("./data","testing_set_path_cc_mlo_2.csv"), index=False)

@@ -86,6 +86,8 @@ class AugmentedImageSequence(Sequence):
         batch_x = (batch_x - imagenet_mean) / imagenet_std
         return batch_x
 
+    
+
     def get_y_true(self):
         """
         Use this function to get y_true for predict_generator
@@ -104,6 +106,16 @@ class AugmentedImageSequence(Sequence):
     def get_class_counts(self):
         return self.class_counts
 
+    def get_sparse_labels_mapping(self, y):
+        labels = np.zeros(y.shape[0],dtype=int)
+        index = 0
+
+        for label in y:
+            labels[index] = self.class_names.index(label)
+            self.class_counts[labels[index]] += 1
+            index += 1
+
+        return labels
     def get_sparse_labels(self, y):
         labels = np.zeros(y.shape[0], dtype=int)
         index = 0
@@ -131,7 +143,7 @@ class AugmentedImageSequence(Sequence):
         if self.multi_label_classification:
             return self.get_onehot_labels(y)
         else:
-            return self.get_sparse_labels(y)
+            return self.get_sparse_labels_mapping(y)
 
     def get_images_names(self):
         return self.image_names

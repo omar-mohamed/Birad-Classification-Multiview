@@ -7,10 +7,11 @@ from PIL import Image
 from skimage.transform import resize
 from tqdm import tqdm
 
-csv_name = 'all_data_path_dm_cm.csv'
+csv_name = 'all_data_path_cc_mlo.csv'
 dataset_df = pd.read_csv('./data/all_data_pathology.csv')
 
-
+# csv_name = 'new_test_set_path_cc_mlo.csv'
+# dataset_df = pd.read_csv('./data/new_test_set.csv')
 
 def make_dict(dataset_df):
     dict={}
@@ -33,14 +34,14 @@ pbar = tqdm(total=len(dataset_df))
 for i, row in dataset_df.iterrows():
     image_name = row['Image_name'].strip()
     image_name += '.jpg'
-    if 'CM' in image_name:
-        dm_name = image_name.replace("CM", "DM")
-        if os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_cropped_224/{image_name}") and os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_cropped_224/{dm_name}"):
-            row['Image_name_DM'] = os.path.splitext(dm_name)[0]
+    if 'CC' in image_name:
+        mlo_name = image_name.replace("CC", "MLO")
+        if os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_rana_cropped_224/{image_name}") and os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_rana_cropped_224/{mlo_name}"):
+            row['Image_name_DM'] = os.path.splitext(mlo_name)[0]
             add_row(new_csv, row)
 
         else:
-            print(f"Did no find dm for {image_name}")
+            print(f"Did no find MLO for {image_name}")
             continue
 
 

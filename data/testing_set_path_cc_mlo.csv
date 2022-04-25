@@ -1,0 +1,87 @@
+Image_name,Patient_ID,Side,Type,Age,Breast density (ACR),BIRADS,Findings,View,Tags,Machine,Pathology Classification/ Follow up,Image_name_DM
+P299_L_DM_CC,299,L,DM,57,B,1,Normal,CC,normal,1,Normal,P299_L_DM_MLO
+P170_L_CM_CC,170,L,CESM,51,_,2,Stippled enhancement ,CC,"adenosis, stippled",1,Benign,P170_L_CM_MLO
+P64_L_DM_CC,64,L,DM,35,C,2,IMLN ,CC,"benign, IMLN",1,Benign,P64_L_DM_MLO
+P243_R_DM_CC,243,R,DM,55,C,3,Asymmetrical increased density ,CC,asymmetry,1,Malignant,P243_R_DM_MLO
+P143_R_CM_CC,143,R,CESM,48,_,2,Non enhancement,CC,postoperative,1,Benign,P143_R_CM_MLO
+P300_L_DM_CC,300,L,DM,57,B,1,Normal,CC,normal,1,Normal,P300_L_DM_MLO
+P174_R_DM_CC,174,R,DM,53,_,2,Edema and postoperative scar,CC,postoperative,1,Benign,P174_R_DM_MLO
+P290_R_CM_CC,290,R,CESM,60,_,5,Two heterogenously enhancing masses with speculated margin,CC,"malignant mass, multiple, multifocal, speculated",1,Malignant,P290_R_CM_MLO
+P310_L_DM_CC,310,L,DM,51,C,4,Diffuse edematous changes with focal asymmetrical increased density and scattered microcalcifications,CC,"edema, focal asymmetry, microcalcifications",1,Malignant,P310_L_DM_MLO
+P153_L_CM_CC,153,L,CESM,67,_,2,Non enhancement ,CC,"benign, non enhancement",1,Benign,P153_L_CM_MLO
+P292_L_CM_CC,292,L,CESM,49,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P292_L_CM_MLO
+P145_R_CM_CC,145,R,CESM,50,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P145_R_CM_MLO
+P141_R_CM_CC,141,R,CESM,37,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P141_R_CM_MLO
+P74_L_CM_CC,74,L,CESM,63,_,5,Heterogenously enhancing mass with ductal non mass enhancement,CC,"malignant mass, suspicious non mass, ductal",1,Malignant,P74_L_CM_MLO
+P257_L_DM_CC,257,L,DM,51,B,1,Normal,CC,normal,1,Normal,P257_L_DM_MLO
+P56_R_DM_CC,56,R,DM,38,C,1,Normal,CC,normal,2,Normal,P56_R_DM_MLO
+P51_L_DM_CC,51,L,DM,64,C,2,Benign macrocalcification,CC,benign macrocalcification,1,Benign,P51_L_DM_MLO
+P277_L_DM_CC,277,L,DM,58,C,4,Diffuse edematous changes with asymmetrical increased density and overlying clusters of pleomorphic microcalcifications,CC,edema,1,Malignant,P277_L_DM_MLO
+P59_L_DM_CC,59,L,DM,84,B,2,Vascular calcifications,CC,"benign, vascular calcifications",1,Benign,P59_L_DM_MLO
+P177_R_DM_CC,177,R,DM,50,B,5,High density mass with indistinct margin and edema pattern and nipple retraction,CC,"malignant mass, microlobulated, edema, nipple retraction",1,Malignant,P177_R_DM_MLO
+P142_R_CM_CC,142,R,CESM,36,_,3,Faintly enhancing oval mass with circumscribed margin,CC,"benign mass, faint, circumscribed",2,Benign,P142_R_CM_MLO
+P144_R_DM_CC,144,R,DM,47,_,2,Edema and postoperative scar ,CC,postoperative,1,Benign,P144_R_DM_MLO
+P307_L_CM_CC,307,L,CESM,72,_,5,Multiple irregular heterogenously enhancng masses reaching to the nipple and retracting it,CC,"malignant mass, multiple, multicentric, irregular, nipple retraction",1,Malignant,P307_L_CM_MLO
+P275_L_CM_CC,275,L,CESM,51,_,5,Multiple heterogenously enhancing masses with speculated margin ,CC,"malignant mass, multiple, multifocal, speculated",1,Malignant,P275_L_CM_MLO
+P263_L_DM_CC,263,L,DM,59,C,2,Benign macrocalcification,CC,benign macrocalcification,1,Benign,P263_L_DM_MLO
+P308_R_DM_CC,308,R,DM,52,B,1,Normal,CC,normal,1,Normal,P308_R_DM_MLO
+P264_R_DM_CC,264,R,DM,65,C,1,Normal,CC,normal,1,Normal,P264_R_DM_MLO
+P102_R_CM_CC,102,R,CESM,39,_,5,Irregular rim enhancing mass,CC,"malignant mass, irregular rim",1,Malignant,P102_R_CM_MLO
+P172_R_DM_CC,172,R,DM,53,B,3,Multiple equal density masses with circumscribed margin,CC,"benign mass, circumscribed",2,Benign,P172_R_DM_MLO
+P196_L_CM_CC,196,L,CESM,31,_,2,IMLN,CC,"benign, IMLN",1,Benign,P196_L_CM_MLO
+P255_R_DM_CC,255,R,DM,53,B,2$2,Dilated retroareolar duct$Vascular calcifications,CC,"dilated duct, vascular calcification",1,Benign,P255_R_DM_MLO
+P283_L_CM_CC,283,L,CESM,22,_,4,Heterogenously enhancing mass,CC,suspicious mass,1,Malignant,P283_L_CM_MLO
+P122_R_CM_CC,122,R,CESM,57,_,4,Heterogenously enhancing mass ,CC,"suspicious mass, indistinct",1,Benign,P122_R_CM_MLO
+P165_L_DM_CC,165,L,DM,56,C,4$2,Asymmetrical increased density with overlying microcalcification$Vascular calcifications,CC,"suspicious, asymmetry, microcalcifications",2,Malignant,P165_L_DM_MLO
+P81_R_CM_CC,81,R,CESM,47,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P81_R_CM_MLO
+P16_R_CM_CC,16,R,CESM,43,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P16_R_CM_MLO
+P176_L_CM_CC,176,L,CESM,47,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P176_L_CM_MLO
+P165_R_DM_CC,165,R,DM,56,C,3$2,Equal density mass with circumscribed margin$Vascular calcifications,CC,"benign mass, circumscribed, vascular calcifications",2,Benign,P165_R_DM_MLO
+P124_R_CM_CC,124,R,CESM,39,_,5,Segmental non mass enhancement ,CC,"malignant non mass, segmental",1,Malignant,P124_R_CM_MLO
+P315_R_DM_CC,315,R,DM,65,B,2,Vascular calcifications,CC,vascular calcifications,1,Benign,P315_R_DM_MLO
+P87_R_CM_CC,87,R,CESM,40,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P87_R_CM_MLO
+P316_L_CM_CC,316,L,CESM,68,_,5,Heterogenously enhancing mass with speculated margin and skin retraction,CC,"malignant mass, speculated, skin retraction",1,Malignant,P316_L_CM_MLO
+P282_R_DM_CC,282,R,DM,47,C,1,Normal,CC,normal,1,Normal,P282_R_DM_MLO
+P326_R_CM_CC,326,R,CESM,51,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P326_R_CM_MLO
+P318_L_DM_CC,318,L,DM,60,C,2,Vascular calcification,CC,"benign, vascular calcification",1,Benign,P318_L_DM_MLO
+P39_R_CM_CC,39,R,CESM,71,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P39_R_CM_MLO
+P226_R_CM_CC,226,R,CESM,41,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P226_R_CM_MLO
+P308_L_CM_CC,308,L,CESM,52,_,4,Heterogenously enhancing mass ,CC,"postoperative, suspicious mass",1,Malignant,P308_L_CM_MLO
+P326_L_DM_CC,326,L,DM,51,C,3,Asymmetrical increased density ,CC,asymmetry,1,Malignant,P326_L_DM_MLO
+P303_R_DM_CC,303,R,DM,66,C,1,Normal,CC,normal,1,Normal,P303_R_DM_MLO
+P37_L_CM_CC,37,L,CESM,32,_,4,Two ill defined heterogenously enhancing masses,CC,"suspicious masses, multiple",1,Malignant,P37_L_CM_MLO
+P211_L_DM_CC,211,L,DM,49,D,3,Multiple equal density masses with circumscribed margin,CC,"benign mass, multiple, circumscribed",1,Malignant,P211_L_DM_MLO
+P162_R_CM_CC,162,R,CESM,29,_,4,Linear non mass enhancement,CC,"suspicious non mass, linear",1,Malignant,P162_R_CM_MLO
+P149_L_DM_CC,149,L,DM,45,B,2,Pop corn macrocalcification ,CC,"benign mass, popcorn, fibroadenoma",1,Benign,P149_L_DM_MLO
+P310_R_CM_CC,310,R,CESM,51,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P310_R_CM_MLO
+P300_L_CM_CC,300,L,CESM,57,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P300_L_CM_MLO
+P292_R_DM_CC,292,R,DM,49,C,4$2,Equal density mass with speculated margin and overlying macrocalcification$Diffuse macrocalcification,CC,"suspicious mass, speculated, microcalcifications, diffuse macrocalcifications",1,Malignant,P292_R_DM_MLO
+P243_L_DM_CC,243,L,DM,55,C,1,Normal,CC,normal,1,Normal,P243_L_DM_MLO
+P312_L_DM_CC,312,L,DM,50,C,4,Equal density mass with indistinct margin,CC,"suspicious mass, indistinct",1,Malignant,P312_L_DM_MLO
+P297_L_DM_CC,297,L,DM,49,C,4,Diffuse edematous changes and high density mass with microlobulated margin and nipple retraction,CC,"edema, suspicious mass, microlobulated, nipple retraction",1,Malignant,P297_L_DM_MLO
+P111_L_CM_CC,111,L,CESM,44,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P111_L_CM_MLO
+P194_R_DM_CC,194,R,DM,77,D,5,High density mass with indistinct margin and overlying segmental microcalcification,CC,"malignant mass, indistinct, microcalcification",1,Malignant,P194_R_DM_MLO
+P90_R_DM_CC,90,R,DM,41,B,3,Retroareolar asymmetrical increased density ,CC,asymmetry,2,Malignant,P90_R_DM_MLO
+P59_L_CM_CC,59,L,CESM,84,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P59_L_CM_MLO
+P191_L_CM_CC,191,L,CESM,66,_,4,Multiple heterogenously enhancing masses,CC,"suspicious mass, multiple, multifocal",1,Malignant,P191_L_CM_MLO
+P291_R_DM_CC,291,R,DM,43,C,5,Two high density masses with speculated margin and intraductal extension and nipple retraction,CC,"malignant mass, multiple, speculated, ductal extension, nipple retraction",1,Malignant,P291_R_DM_MLO
+P196_L_DM_CC,196,L,DM,31,C,1,Normal,CC,normal,1,Benign,P196_L_DM_MLO
+P94_R_CM_CC,94,R,CESM,45,_,5,Faintly enhancing mass with speculated margin,CC,"malignant mass, faint ",2,Malignant,P94_R_CM_MLO
+P207_R_CM_CC,207,R,CESM,55,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P207_R_CM_MLO
+P126_R_CM_CC,126,R,CESM,50,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P126_R_CM_MLO
+P125_L_DM_CC,125,L,DM,47,C,3,Equal density mass with circumscribed margin,CC,"benign mass, circumscribed",1,Benign,P125_L_DM_MLO
+P317_L_DM_CC,317,L,DM,31,_,4,Postoperative scar and high density mass with indistinct margin,CC,"postoperative, suspicious mass, indistinct, recurrence, chloroma",1,Malignant,P317_L_DM_MLO
+P305_R_CM_CC,305,R,CESM,33,_,5,Heterogenously enhancing mass with surrounding satellites and nipple retraction,CC,"malignant mass, satellites, multifocal, nipple retraction, recurrence ",1,Malignant,P305_R_CM_MLO
+P256_L_CM_CC,256,L,CESM,48,_,4,Heterogenous enhacement ,CC,suspicious ,1,Malignant,P256_L_CM_MLO
+P101_R_DM_CC,101,R,DM,47,C,1,Normal,CC,normal,1,Normal,P101_R_DM_MLO
+P5_L_DM_CC,5,L,DM,51,B,1,Normal,CC,normal,1,Normal,P5_L_DM_MLO
+P272_R_DM_CC,272,R,DM,51,C,3,Focal asymmetrical increased density ,CC,focal asymmetry,1,Normal,P272_R_DM_MLO
+P39_R_DM_CC,39,R,DM,71,B,1,Normal,CC,normal,1,Normal,P39_R_DM_MLO
+P220_L_DM_CC,220,L,DM,68,B,1,Normal,CC,normal,1,Normal,P220_L_DM_MLO
+P31_L_CM_CC,31,L,CESM,39,_,2,Stippled enhancement,CC,adenosis,1,Benign,P31_L_CM_MLO
+P175_R_CM_CC,175,R,CESM,57,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P175_R_CM_MLO
+P136_R_CM_CC,136,R,CESM,47,_,1,No mass or non mass enhancement,CC,normal,1,Normal,P136_R_CM_MLO
+P161_R_DM_CC,161,R,DM,49,B,3,Equal density mass with circumscribed margin,CC,"benign mass, circumscribed, cyst",1,Benign,P161_R_DM_MLO
+P144_R_CM_CC,144,R,CESM,47,_,2,Non enhancement,CC,postoperative,1,Benign,P144_R_CM_MLO
+P278_R_CM_CC,278,R,CESM,41,_,2,Foci of enhancement,CC,adenosis,1,Benign,P278_R_CM_MLO
+P69_L_DM_CC,69,L,DM,60,C,2,Benign macrocalcification,CC,"benign, macrocalcification",2,Benign,P69_L_DM_MLO

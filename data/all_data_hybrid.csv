@@ -1,0 +1,60 @@
+Image_name,Patient_ID,Side,Type,BIRADS,Finding,View
+P1_L_H_MLO.jpg,1,L,H,3,Heterogenously enhancing mass,MLO
+P2_R_H_CC.jpg,2,R,H,2,Multiple homogenously enhancingmasses,CC
+P2_R_H_MLO.jpg,2,R,H,2,Multiple homogenously enhancingmasses,MLO
+P2_L_H_CC.jpg,2,L,H,2,Flap with no enhancement,CC
+P2_L_H_MLO.jpg,2,L,H,2,Flap with no enhancement,MLO
+P3_L_H_CC.jpg,3,L,H,3,Heterogenously enhancing mass with speculated margin,CC
+P3_L_H_MLO.jpg,3,L,H,3,Heterogenously enhancing mass with speculated margin,MLO
+P3_R_H_CC.jpg,3,R,H,2,Dilated retroareolar duct$IMLN,CC
+P3_R_H_MLO.jpg,3,R,H,2,Dilated retroareolar duct$IMLN,MLO
+P4_L_H_MLO.jpg,4,L,H,1,No mass or non mass enhancement,MLO
+P4_R_H_CC.jpg,4,R,H,1,No mass or non mass enhancement,CC
+P5_R_H_CC.jpg,5,R,H,1,No mass or non mass enhancement,CC
+P5_R_H_MLO.jpg,5,R,H,1,No mass or non mass enhancement,MLO
+P5_L_H_CC.jpg,5,L,H,1,No mass or non mass enhancement,CC
+P5_L_H_MLO.jpg,5,L,H,1,No mass or non mass enhancement,MLO
+P6_R_H_CC.jpg,6,R,H,1,No mass or non mass enhancement,CC
+P6_L_H_MLO.jpg,6,L,H,2,Enhancing mass with dark internal septations,MLO
+P7_R_H_CC.jpg,7,R,H,1,No mass or non mass enhancement,CC
+P7_R_H_MLO.jpg,7,R,H,1,No mass or non mass enhancement,MLO
+P7_L_H_MLO.jpg,7,L,H,3,Heterogenously enhancing mass with speculated margin,MLO
+P8_L_H_MLO.jpg,8,L,H,1,No mass or non mass enhancement,MLO
+P9_L_H_MLO.jpg,9,L,H,1,No mass or non mass enhancement,MLO
+P10_R_H_CC.jpg,10,R,H,2,Foci of enhancement,CC
+P10_R_H_MLO.jpg,10,R,H,2,Foci of enhancement,MLO
+P10_L_H_CC.jpg,10,L,H,2,Foci of enhancement,CC
+P10_L_H_MLO.jpg,10,L,H,2,Foci of enhancement,MLO
+P11_R_H_CC.jpg,11,R,H,2,Enhancing mass with dark internal septations,CC
+P11_R_H_MLO.jpg,11,R,H,2,Enhancing mass with dark internal septations,MLO
+P12_R_H_CC.jpg,12,R,H,1,No mass or non mass enhancement,CC
+P12_R_H_MLO.jpg,12,R,H,1,No mass or non mass enhancement,MLO
+P12_L_H_CC.jpg,12,L,H,3,Ductal non mass enhancement$IMLN,CC
+P12_L_H_MLO.jpg,12,L,H,3,Ductal non mass enhancement$IMLN,MLO
+P13_R_H_CC.jpg,13,R,H,2,Non enhancement,CC
+P14_L_H_CC.jpg,14,L,H,1,No mass or non mass enhancement,CC
+P14_L_H_MLO.jpg,14,L,H,1,No mass or non mass enhancement,MLO
+P14_R_H_CC.jpg,14,R,H,3,Cobblestone enhancement,CC
+P14_R_H_MLO.jpg,14,R,H,3,Cobblestone enhancement,MLO
+P15_L_H_MLO.jpg,15,L,H,2,Non enhancement,MLO
+P15_R_H_MLO.jpg,15,R,H,1,No mass or non mass enhancement,MLO
+P16_R_H_CC.jpg,16,R,H,1,No mass or non mass enhancement,CC
+P16_R_H_MLO.jpg,16,R,H,3,Axillary heterogenously enhancing mass,MLO
+P16_L_H_CC.jpg,16,L,H,1,No mass or non mass enhancement,CC
+P16_L_H_MLO.jpg,16,L,H,1,No mass or non mass enhancement,MLO
+P17_R_H_MLO.jpg,17,R,H,3,Heterogenous enhacement,MLO
+P18_R_H_CC.jpg,18,R,H,2,Focus enhancement,CC
+P18_R_H_MLO.jpg,18,R,H,2,Focus enhancement,MLO
+P18_L_H_CC.jpg,18,L,H,3,Ductal non mass enhancement,CC
+P18_L_H_MLO.jpg,18,L,H,3,Ductal non mass enhancement,MLO
+P19_R_H_MLO.jpg,19,R,H,1,No mass or non mass enhancement,MLO
+P19_L_H_CC.jpg,19,L,H,2,Non enhancement,CC
+P19_L_H_MLO.jpg,19,L,H,2,Non enhancement,MLO
+P20_R_H_CC.jpg,20,R,H,1,No mass or non mass enhancement,CC
+P20_R_H_MLO.jpg,20,R,H,2,IMLN,MLO
+P21_R_H_CC.jpg,21,R,H,3,Segmental non mass enhancement,CC
+P21_R_H_MLO.jpg,21,R,H,3,Segmental non mass enhancement,MLO
+P21_L_H_CC.jpg,21,L,H,1,No mass or non mass enhancement,CC
+P21_L_H_MLO.jpg,21,L,H,1,No mass or non mass enhancement,MLO
+P22_L_H_CC.jpg,22,L,H,3,Regional non mass enhancement,CC
+P23_R_H_CC.jpg,23,R,H,2,Non enhancement,CC

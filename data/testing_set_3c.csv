@@ -1,0 +1,24 @@
+Unnamed: 0,Image_name,Patient_ID,Side,Type,BIRADS,Finding,View
+110,P21_L_DM_CC,21,L,DM,1,Normal,CC
+94,P18_L_CM_CC,18,L,CESM,3,Ductal non mass enhancement,CC
+29,P5_L_CM_MLO,5,L,CESM,1,No mass or non mass enhancement,MLO
+88,P18_R_DM_CC,18,R,DM,3,Multiple medium density masses,CC
+5,P2_R_CM_MLO,2,R,CESM,2,Multiple homogenously enhancingmasses,MLO
+47,P10_R_CM_MLO,10,R,CESM,2,Foci of enhancement,MLO
+20,P4_R_DM_CC,4,R,DM,1,Normal,CC
+9,P2_L_CM_MLO,2,L,CESM,2,Flap with no enhancement,MLO
+116,P23_R_DM_CC,23,R,DM,2,Edema and postoperative scar,CC
+24,P5_R_CM_CC,5,R,CESM,1,No mass or non mass enhancement,CC
+55,P11_R_CM_MLO,11,R,CESM,2,Enhancing mass with dark internal septations,MLO
+71,P14_R_DM_MLO,14,R,DM,3,Diffuse edematous changes,MLO
+28,P5_L_CM_CC,5,L,CESM,1,No mass or non mass enhancement,CC
+100,P19_L_CM_CC,19,L,CESM,2,Non enhancement,CC
+78,P16_R_DM_CC,16,R,DM,1,Normal,CC
+114,P22_L_DM_CC,22,L,DM,2,Asymmetrial increased density,CC
+115,P22_L_CM_CC,22,L,CESM,3,Regional non mass enhancement,CC
+50,P10_L_CM_CC,10,L,CESM,2,Foci of enhancement,CC
+84,P16_L_CM_CC,16,L,CESM,1,No mass or non mass enhancement,CC
+89,P18_R_DM_MLO,18,R,DM,3,Multiple medium density masses,MLO
+108,P21_R_CM_CC,21,R,CESM,3,Segmental non mass enhancement,CC
+77,P15_R_CM_MLO,15,R,CESM,1,No mass or non mass enhancement,MLO
+23,P5_R_DM_MLO,5,R,DM,1,Normal,MLO

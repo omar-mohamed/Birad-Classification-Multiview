@@ -1,18 +1,21 @@
 from __future__ import absolute_import, division
 
+from visual_model_selector import ModelFactory
 from configs import argHandler  # Import the default arguments
 from model_utils import get_optimizer, get_multilabel_class_weights, get_generator, get_class_weights
 from tensorflow.keras import metrics
 from tensorflow.keras.callbacks import ReduceLROnPlateau, ModelCheckpoint, TensorBoard, CSVLogger
 import os
-from tensorflow.keras.models import load_model
 from augmenter import augmenter
 from auroc import MultipleClassAUROC
 from MultiViewModel import MultiViewModel
 import json
+import efficientnet.tfkeras
 
 FLAGS = argHandler()
 FLAGS.setDefaults()
+
+model_factory = ModelFactory()
 
 
 # load training and test set file names
@@ -30,7 +33,9 @@ training_stats = {}
 learning_rate = FLAGS.learning_rate
 
 if FLAGS.load_model_path != '' and FLAGS.load_model_path is not None:
-    multiview_model = load_model(FLAGS.load_model_path)
+    multiview_model = MultiViewModel(FLAGS)
+    multiview_model.built = True
+    multiview_model.load_weights(FLAGS.load_model_path)
     if FLAGS.show_model_summary:
         multiview_model.summary()
     training_stats_file = os.path.join(FLAGS.save_model_path, ".training_stats.json")
@@ -62,8 +67,7 @@ with open(os.path.join(FLAGS.save_model_path,'configs.json'), 'w') as fp:
 callbacks = [
     ReduceLROnPlateau(monitor='val_loss', factor=FLAGS.learning_rate_decay_factor,
                       patience=FLAGS.reduce_lr_patience,
-                      verbose=1, mode="min", min_lr=FLAGS.minimum_learning_rate),
-    TensorBoard(log_dir=os.path.join(FLAGS.save_model_path, "logs"), batch_size=FLAGS.batch_size)
+                      verbose=1, mode="min", min_lr=FLAGS.minimum_learning_rate)
 ]
 
 if FLAGS.multi_label_classification:
@@ -86,7 +90,8 @@ else:
                                  save_best_only=True, save_weights_only=False, mode='max', verbose=1)
     callbacks.extend([CSVLogger(os.path.join(FLAGS.save_model_path,'training_log.csv')), checkpoint])
 
-
+# class_weights = {0: 1.5, 1: 1.0, 2: 2.0}
+print(class_weights)
 multiview_model.fit(
     train_generator,
     steps_per_epoch=train_generator.steps,
