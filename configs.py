@@ -5,9 +5,9 @@ class argHandler(dict):
     _descriptions = {'help, --h, -h': 'show this super helpful message and exit'}
 
     def setDefaults(self):
-        self.define('train_csv', "./data/training_set_path_dm_cm.csv",
+        self.define('train_csv', "./data/training_set_path_cc_mlo_is_mal.csv",
                     'path to training csv containing the images names and the labels')
-        self.define('test_csv', './data/testing_set_path_dm_cm.csv',
+        self.define('test_csv', './data/testing_set_path_cc_mlo_is_mal.csv',
                     'path to testing csv containing the images names and the labels')
         self.define('image_directory', './data/images',
                     'path to folder containing the patient folders which containg the images')
@@ -18,8 +18,8 @@ class argHandler(dict):
         self.define('chexnet_weights_path', 'pretrained_models/chexnet_densenet121_weights.h5', 'chexnet weights path')
         self.define('image_target_size', (224, 224, 3), 'the target size to resize the image')
         self.define('num_epochs', 500, 'maximum number of epochs')
-        self.define('csv_label_columns', ['Pathology classification'], 'the name of the label columns in the csv')
-        self.define('classes', ['Normal', 'Benign', 'Malignant'],
+        self.define('csv_label_columns', ['is_malignant'], 'the name of the label columns in the csv')
+        self.define('classes', ['Non Malignant', 'Malignant'],
                     'the names of the output classes')
         self.define('multi_label_classification', False,
                     'determines if this is a multi classification problem or not. It affects the loss function')
@@ -33,7 +33,7 @@ class argHandler(dict):
         self.define('final_layer_pooling', 'avg', 'the pooling to be used as a final layer to the visual model')
         self.define('load_model_path', '',
                     'a path containing the checkpoints. If provided with load_model_name the system will continue the training from that point or use it in testing.')
-        self.define('save_model_path', 'saved_models/cm_dm/old_test_EfficientNetB7_2_cont_2_cc_dm',
+        self.define('save_model_path', 'saved_models/cc_mlo/old_test_0.15_EfficientNetB7',
                     'where to save the checkpoints. The path will be created if it does not exist. The system saves every epoch by default')
         self.define('save_best_model_only', True,
                     'Only save the best weights on validation loss')
