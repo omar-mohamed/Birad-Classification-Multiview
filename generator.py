@@ -146,7 +146,7 @@ class AugmentedImageSequence(Sequence):
             return self.get_sparse_labels_mapping(y)
 
     def get_images_names(self):
-        return self.image_names
+        return self.image_names, self.images_names_dm
 
     def get_images_path(self, image_names):
         for i in range(image_names.shape[0]):
@@ -155,8 +155,8 @@ class AugmentedImageSequence(Sequence):
 
     def prepare_dataset(self):
         df = self.dataset_df.sample(frac=1., random_state=self.random_state)
-        self.x_path, self.x_path_dm, self.y, self.side, self.image_names = self.get_images_path(df["Image_name"].values)\
-            ,self.get_images_path(df["Image_name_DM"].values), self.convert_labels_to_numbers(df[self.label_columns].values), df['Side'].values, df['Image_name'].values
+        self.x_path, self.x_path_dm, self.y, self.side, self.image_names, self.images_names_dm = self.get_images_path(df["Image_name"].values)\
+            ,self.get_images_path(df["Image_name_DM"].values), self.convert_labels_to_numbers(df[self.label_columns].values), df['Side'].values, df['Image_name'].values, df['Image_name_DM'].values
 
 
 def on_epoch_end(self):
