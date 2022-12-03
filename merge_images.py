@@ -6,9 +6,9 @@ import cv2
 from PIL import Image
 from skimage.transform import resize
 from tqdm import tqdm
-
-csv_name = 'all_data_path_dm_cm.csv'
-dataset_df = pd.read_csv('./data/all_data_pathology.csv')
+import math
+csv_name = 'omar_test_set_dm_cm.csv'
+dataset_df = pd.read_csv('./data/omar_test_set.csv')
 
 
 
@@ -31,11 +31,14 @@ new_csv = make_dict(dataset_df)
 pbar = tqdm(total=len(dataset_df))
 
 for i, row in dataset_df.iterrows():
+    if pd.isnull(row['Image_name']):
+      continue
+    # print(row['Image_name'])
     image_name = row['Image_name'].strip()
     image_name += '.jpg'
     if 'CM' in image_name:
         dm_name = image_name.replace("CM", "DM")
-        if os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_cropped_224/{image_name}") and os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_cropped_224/{dm_name}"):
+        if os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_rana_cropped_224/{image_name}") and os.path.isfile(f"../../birad_classification/Breast-Cancer-Birads-Classification/data/images_rana_cropped_224/{dm_name}"):
             row['Image_name_DM'] = os.path.splitext(dm_name)[0]
             add_row(new_csv, row)
 

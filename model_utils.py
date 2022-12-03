@@ -187,11 +187,12 @@ def get_sample_counts(labels):
 
 # predict on data from generator and calculate accuracy
 def get_evaluation_metrics(predictions, labels, class_names):
-    print(classification_report(labels, predictions, target_names=class_names))
+    onehot_preds = predictions.argmax(axis=1)
+    print(classification_report(labels, onehot_preds, target_names=class_names))
     print("*******Confusion matrix*********")
-    print(confusion_matrix(labels, predictions))
-    print("\nAccuracy: %.2f" % accuracy_score(labels, predictions))
-
+    print(confusion_matrix(labels, onehot_preds))
+    print("\nAccuracy: %.2f" % accuracy_score(labels, onehot_preds))
+    print("\ROC AUC: %.2f" % roc_auc_score(labels, predictions[:,1]))
 
 
 def get_multilabel_class_weights(labels, multiply):

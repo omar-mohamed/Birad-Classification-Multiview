@@ -150,6 +150,8 @@ class AugmentedImageSequence(Sequence):
 
     def get_images_path(self, image_names):
         for i in range(image_names.shape[0]):
+            # if pd.isnull(image_names[i]):
+            #   continue           
             image_names[i] = image_names[i].strip() + '.jpg'
         return image_names
 
