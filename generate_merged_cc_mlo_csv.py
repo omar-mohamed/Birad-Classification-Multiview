@@ -10,9 +10,6 @@ from tqdm import tqdm
 csv_name = 'all_data_path_cc_mlo.csv'
 dataset_df = pd.read_csv('./data/all_data_pathology.csv')
 
-# csv_name = 'new_test_set_path_cc_mlo.csv'
-# dataset_df = pd.read_csv('./data/new_test_set.csv')
-
 def make_dict(dataset_df):
     dict={}
     for column in dataset_df:
