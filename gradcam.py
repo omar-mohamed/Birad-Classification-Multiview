@@ -1,5 +1,6 @@
 # import the necessary packages
 from tensorflow.keras.models import Model
+from tensorflow.keras import Input
 import tensorflow as tf
 import numpy as np
 import cv2
@@ -22,7 +23,7 @@ class GradCAM:
     def find_target_layer(self):
         # attempt to find the final convolutional layer in the network
         # by looping over the layers of the network in reverse order
-        for layer in reversed(self.model.layers):
+        for layer in reversed(self.model.layers[0].layers):
             # check to see if the layer has a 4D output
             if len(layer.output_shape) == 4:
                 return layer.name
@@ -31,28 +32,7 @@ class GradCAM:
         # algorithm cannot be applied
         raise ValueError("Could not find 4D layer. Cannot apply GradCAM.")
 
-    def compute_heatmap(self, image, eps=1e-8):
-        # construct our gradient model by supplying (1) the inputs
-        # to our pre-trained model, (2) the output of the (presumably)
-        # final 4D layer in the network, and (3) the output of the
-        # softmax activations from the model
-        gradModel = Model(
-            inputs=[self.model.inputs],
-            outputs=[self.model.get_layer(self.layerName).output,
-                     self.model.output])
-
-        # record operations for automatic differentiation
-        with tf.GradientTape() as tape:
-            # cast the image tensor to a float-32 data type, pass the
-            # image through the gradient model, and grab the loss
-            # associated with the specific class index
-            inputs = tf.cast(image, tf.float32)
-            (convOutputs, predictions) = gradModel(inputs)
-            loss = predictions[:, self.classIdx]
-
-        # use automatic differentiation to compute the gradients
-        grads = tape.gradient(loss, convOutputs)
-
+    def heatmap(self, image, convOutputs, grads, eps=1e-8):
         # compute the guided gradients
         castConvOutputs = tf.cast(convOutputs > 0, "float32")
         castGrads = tf.cast(grads > 0, "float32")
@@ -87,6 +67,38 @@ class GradCAM:
         # return the resulting heatmap to the calling function
         return heatmap
 
+    def compute_heatmap(self, images, eps=1e-8):
+        # construct our gradient model by supplying (1) the inputs
+        # to our pre-trained model, (2) the output of the (presumably)
+        # final 4D layer in the network, and (3) the output of the
+        # softmax activations from the model
+
+        visModel1 = Model(self.model.layers[0].input, [self.model.layers[0].get_layer(self.layerName).output, self.model.layers[0].output])
+        visModel2 = Model(self.model.layers[1].input, [self.model.layers[1].get_layer(self.layerName).output, self.model.layers[1].output])
+        classifier = Model(self.model.layers[2].input, self.model.layers[2].output)
+        concat_dimension = 1
+        # record operations for automatic differentiation
+        with tf.GradientTape(persistent=True) as tape:
+            # cast the image tensor to a float-32 data type, pass the
+            # image through the gradient model, and grab the loss
+            # associated with the specific class index
+            input1 = tf.cast(images[0], tf.float32)
+            input2 = tf.cast(images[1], tf.float32)
+
+            convOutputs1, visFeat1= visModel1(input1)
+            convOutputs2, visFeat2= visModel2(input2)
+            features = tf.concat([visFeat1, visFeat2], concat_dimension)
+            predictions = classifier(features)
+
+            loss = predictions[:, self.classIdx]
+
+        # use automatic differentiation to compute the gradients
+        grads1 = tape.gradient(loss, convOutputs1)
+        heatmap1 = self.heatmap(images[0],convOutputs1,grads1)
+        grads2 = tape.gradient(loss, convOutputs2)
+        heatmap2 = self.heatmap(images[1],convOutputs2,grads2)
+        del tape
+        return [heatmap1, heatmap2]
     def overlay_heatmap(self, heatmap, image, alpha=0.5,
                         colormap=cv2.COLORMAP_VIRIDIS):
         # apply the supplied color map to the heatmap and then
