@@ -6,7 +6,7 @@ import cv2
 from PIL import Image
 from skimage.transform import resize
 from tqdm import tqdm
-
+import math
 csv_name = 'all_data_path_dm_cm.csv'
 dataset_df = pd.read_csv('./data/all_data_pathology.csv')
 
@@ -31,6 +31,9 @@ new_csv = make_dict(dataset_df)
 pbar = tqdm(total=len(dataset_df))
 
 for i, row in dataset_df.iterrows():
+    if pd.isnull(row['Image_name']):
+      continue
+    # print(row['Image_name'])
     image_name = row['Image_name'].strip()
     image_name += '.jpg'
     if 'CM' in image_name:

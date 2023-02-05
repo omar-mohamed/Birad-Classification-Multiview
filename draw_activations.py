@@ -19,8 +19,8 @@ FLAGS.setDefaults()
 
 GRADCAM_THRESH = 50
 WHITE_THRESH = 85
-CONFIDENCE_THRESH = 0.45
-ONLY_HIGHLIGHTS = False
+CONFIDENCE_THRESH = 0.50
+ONLY_HIGHLIGHTS = True
 if ONLY_HIGHLIGHTS:
     WRITE_PATH = os.path.join(FLAGS.save_model_path, 'cam_output')
 else:
@@ -64,6 +64,7 @@ def apply_white_threshold(o, h, thresh):
     return h
 
 def write_heatmap_image(image_path, heatmap, image_name):
+    image_path = image_path.replace('_224','')
     original = cv2.imread(image_path)
     heatmap = cv2.resize(heatmap, (original.shape[1], original.shape[0]))
     if not ONLY_HIGHLIGHTS:
@@ -85,7 +86,7 @@ for batch_i in tqdm(range(test_generator.steps)):
     image_path_dm = os.path.join(FLAGS.image_directory, images_names_dm[batch_i])
     preds = visual_model.predict(batch)
     predicted_class = 1 if preds[0][1] >= CONFIDENCE_THRESH else 0
-    label = f"{FLAGS.classes[predicted_class]}: {preds[0][1]}"
+    label = f"{FLAGS.classes[predicted_class]}: {preds[0][1]:.2f}"
     cam = GradCAM(visual_model, predicted_class)
     heatmap1, heatmap2 = cam.compute_heatmap(batch)
 
