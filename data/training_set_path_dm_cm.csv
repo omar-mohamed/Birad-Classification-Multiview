@@ -1,0 +1,804 @@
+Image_name,Patient_ID,Side,Type,BIRADS,Findings,View,Tags,Machine,Pathology classification,Pathology report,Follow up,Unnamed: 12,Color Camoutput in correlation to radiologist,BIRADS Camoutput in correlation to radiologist,Unnamed: 15,Comment ,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Image_name_DM
+P156_L_CM_MLO,156.0,L,CESM,3,Non enhancement,MLO,"benign, non enhancement",2.0,Malignant,Cth -> MRM: IDC,see report,,,,,,,,,,,P156_L_DM_MLO
+P150_L_CM_MLO,150.0,L,CESM,4,Segmental non mass enhancement ,MLO,"suspicious non mass, segmental",1.0,Malignant,Biopsy: Comedo and cribriform DCIS with microinvasion,,,,,,,,,,,,P150_L_DM_MLO
+P191_L_CM_MLO,191.0,L,CESM,4,Multiple heterogenously enhancing masses,MLO,"suspicious mass, multiple, multifocal",1.0,Malignant,Premalignant WLE: Intaduct papillomatosis,,,,,,,,,,,,P191_L_DM_MLO
+P96_R_CM_CC,96.0,R,CESM,5,Heterogenously enhancing mass,CC,malignant mass,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P96_R_DM_CC
+P278_L_CM_MLO,278.0,L,CESM,5,Irregular heterogenously enhancing mass ,MLO,"malignant mass, irregular",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P278_L_DM_MLO
+P277_L_CM_MLO,277.0,L,CESM,5,Irregular heterogenously enhancing mass ,MLO,"malignant mass, irregular",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P277_L_DM_MLO
+P186_L_CM_MLO,186.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Malignant,WLE: Residual IDC,see report,,,,,,,,,,,P186_L_DM_MLO
+P21_L_CM_MLO,21.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P21_L_DM_MLO
+P208_R_CM_CC,208.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,see report,,,,,,,,,,,,P208_R_DM_CC
+P190_L_CM_CC,190.0,L,CESM,5,Heterogenously enhancing mass with indistinct margin,CC,"malignant mass, indistinct",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P190_L_DM_CC
+P110_L_CM_MLO,110.0,L,CESM,5,Clumped ductal non mass enhancement ,MLO,"malignant non mass, clumped ductal",2.0,Malignant,No path,,,,,,,,,,,,P110_L_DM_MLO
+P277_R_CM_MLO,277.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P277_R_DM_MLO
+P192_L_CM_CC,192.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P192_L_DM_CC
+P5_R_CM_CC,5.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P5_R_DM_CC
+P150_R_CM_CC,150.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P150_R_DM_CC
+P252_R_CM_CC,252.0,R,CESM,5,Segmental non mass enhancement ,CC,"malignant non mass, segmental",1.0,Malignant,MRM: IDC ?IBC,,,,,,,,,,,,P252_R_DM_CC
+P315_R_CM_MLO,315.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P315_R_DM_MLO
+P276_L_CM_MLO,276.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,MLO,"malignant mass, speculated",1.0,Malignant,see report,,,,,,,,,,,,P276_L_DM_MLO
+P288_R_CM_MLO,288.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P288_R_DM_MLO
+P266_R_CM_MLO,266.0,R,CESM,5,Irregular rim enhancing mass ,MLO,"malibnant mass, irregular rim",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P266_R_DM_MLO
+P10_R_CM_CC,10.0,R,CESM,2,Foci of enhancement ,CC,"adenosis, foci",1.0,Benign,,Postoperative,,wrong,correct,,,,,,,,P10_R_DM_CC
+P129_R_CM_CC,129.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P129_R_DM_CC
+P320_R_CM_MLO,320.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P320_R_DM_MLO
+P181_R_CM_CC,181.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P181_R_DM_CC
+P16_R_CM_CC,16.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P16_R_DM_CC
+P54_R_CM_MLO,54.0,R,CESM,2,Non enhancement ,MLO,postoperative,1.0,Benign,,Postoperative,,,,,?,,,,,,P54_R_DM_MLO
+P220_R_CM_MLO,220.0,R,CESM,5,Multiple heterogenously enhancing masses ,MLO,"malignant mass, multiple, multientric",1.0,Malignant,"MRM: IDC, IBC",,,,,,,,,,,,P220_R_DM_MLO
+P211_L_CM_CC,211.0,L,CESM,3,Multiple rim mass enhancement ,CC,"benign mass, multiple, rim, cysts",1.0,Malignant,MRM: IDC with major DCIS,see report,,,,,,,,,,,P211_L_DM_CC
+P176_R_CM_CC,176.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,see report,,,,,,,,,,,,P176_R_DM_CC
+P57_R_CM_CC,57.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P57_R_DM_CC
+P77_L_CM_MLO,77.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P77_L_DM_MLO
+P111_L_CM_MLO,111.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P111_L_DM_MLO
+P285_R_CM_MLO,285.0,R,CESM,5,Heterogenously enhancing mass and regional non mass enhancement ,MLO,"malignant mass, non mass, regional",1.0,Malignant,Cth -> Malignant but no path ? IBC,,,,,,,,,,,,P285_R_DM_MLO
+P33_L_CM_MLO,33.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P33_L_DM_MLO
+P171_L_CM_MLO,171.0,L,CESM,2,Non enhancing mass$Stippled enhancement,MLO,"benign, adenosis",1.0,Benign,,Benign,,,,,,,,,,,P171_L_DM_MLO
+P98_R_CM_MLO,98.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P98_R_DM_MLO
+P5_L_CM_MLO,5.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P5_L_DM_MLO
+P104_L_CM_MLO,104.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P104_L_DM_MLO
+P172_R_CM_MLO,172.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",2.0,Benign,,see report,,,,,,,,,,,P172_R_DM_MLO
+P320_L_CM_MLO,320.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Malignant,CBS -> MRM: IDC,,,,,,,,,,,,P320_L_DM_MLO
+P197_R_CM_MLO,197.0,R,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P197_R_DM_MLO
+P265_L_CM_CC,265.0,L,CESM,4,Regional non mass enhancement ,CC,"suspicious non mass, regional",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P265_L_DM_CC
+P16_L_CM_MLO,16.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P16_L_DM_MLO
+P324_L_CM_MLO,324.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P324_L_DM_MLO
+P72_L_CM_CC,72.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P72_L_DM_CC
+P11_R_CM_MLO,11.0,R,CESM,3,Enhancing mass with dark internal septations,MLO,"benign, mass, fibroadenoma",1.0,Benign,,Benign,,correct,correct,,,,,,,,P11_R_DM_MLO
+P212_R_CM_CC,212.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P212_R_DM_CC
+P226_L_CM_MLO,226.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P226_L_DM_MLO
+P40_L_CM_MLO,40.0,L,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P40_L_DM_MLO
+P251_R_CM_CC,251.0,R,CESM,5,Homogenously enhancing mass with indistinct margin$IMLN,CC,"malignant mass, homogenous, indistinct, IMLN",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P251_R_DM_CC
+P323_R_CM_CC,323.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P323_R_DM_CC
+P131_L_CM_MLO,131.0,L,CESM,5,Regional non mass enhancement ,MLO,"malignant non mass, regional",1.0,Malignant,No path,,,,,,,,,,,,P131_L_DM_MLO
+P27_L_CM_CC,27.0,L,CESM,4,Multiple tiny enhancing foci ,CC,"multiple, foci, suspicious",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P27_L_DM_CC
+P307_R_CM_MLO,307.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P307_R_DM_MLO
+P66_R_CM_CC,66.0,R,CESM,5,Heterogenously enhancing irregular mass with speculated margin ,CC,"malignant mass, speculated ",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P66_R_DM_CC
+P286_R_CM_MLO,286.0,R,CESM,5,Segmental non mass enhancement,MLO,"malignant non mass, segmental",1.0,Malignant,Cth -> MRM: IDC ? IBC,,,,,,,,,,,,P286_R_DM_MLO
+P139_R_CM_MLO,139.0,R,CESM,2,Faint enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P139_R_DM_MLO
+P309_R_CM_MLO,309.0,R,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,Biopsy: Benign priductal granulomatous mastitis with microabscess formation,Benign,,,,,,,,,,,P309_R_DM_MLO
+P126_L_CM_MLO,126.0,L,CESM,5,Heterogenously enhancing mass,MLO,"malignant mass, indistinct",1.0,Malignant,Cth -> WLE: IDC ,,,,,,,,,,,,P126_L_DM_MLO
+P97_R_CM_MLO,97.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P97_R_DM_MLO
+P289_L_CM_CC,289.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P289_L_DM_CC
+P77_R_CM_CC,77.0,R,CESM,4,Faint homogenously enhancing mass,CC,"suspicious mass, homogenous",1.0,Benign,Biopsy: fibrofaty tissue,see report,,,,,,,,,,,P77_R_DM_CC
+P94_R_CM_CC,94.0,R,CESM,5,Faintly enhancing mass with speculated margin,CC,"malignant mass, faint ",2.0,Malignant,Premalignant WLE: fibrocystic mastopathy with atypical ductal hyperplasia ,,,,,,,,,,,,P94_R_DM_CC
+P150_L_CM_CC,150.0,L,CESM,4,Segmental non mass enhancement ,CC,"suspicious non mass, segmental",1.0,Malignant,Biopsy: Comedo and cribriform DCIS with microinvasion,,,,,,,,,,,,P150_L_DM_CC
+P45_L_CM_MLO,45.0,L,CESM,4$3,Ductal non mass enhancement$Homogenously enhancing mass with circumscribed margin,MLO,"suspicious non mass, ductal, benign mass, circumscribed",1.0,Benign,Benign; Granulomatous mastitis and abscess,,,,,,,,,,,,P45_L_DM_MLO
+P188_L_CM_MLO,188.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P188_L_DM_MLO
+P37_L_CM_CC,37.0,L,CESM,4,Two ill defined heterogenously enhancing masses,CC,"suspicious masses, multiple",1.0,Malignant,WLE: 2 masses IDC with intraductal component,,,,,,,,,,,,P37_L_DM_CC
+P184_R_CM_CC,184.0,R,CESM,5,Multiple heterogenously enhancing masses with speculated margin,CC,"postoperative, malignant mass, multiple, multifocal, speculated, recurrence",1.0,Malignant,see report,,,,,,,,,,,,P184_R_DM_CC
+P165_R_CM_MLO,165.0,R,CESM,2,Ring enhancing mass,MLO,"benign, non enhancement",2.0,Benign,,Benign,,,,,,,,,,,P165_R_DM_MLO
+P316_L_CM_MLO,316.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and skin retraction,MLO,"malignant mass, speculated, skin retraction",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P316_L_DM_MLO
+P91_L_CM_MLO,91.0,L,CESM,5,Postoperative Irregular rim enhancement,MLO,"postoperative, malignant, rim",1.0,Benign,,Postoperative fat necrosis,,,,,,,,,,,P91_L_DM_MLO
+P279_R_CM_CC,279.0,R,CESM,5,Regional non mass enhancement ,CC,"malignant non mass, regional",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P279_R_DM_CC
+P3_R_CM_MLO,3.0,R,CESM,2,Dilated retroareolar duct,MLO,"dilated duct, benign ",1.0,Benign,,Benign,,wrong,correct,,,,,,,,P3_R_DM_MLO
+P278_L_CM_CC,278.0,L,CESM,5,Irregular heterogenously enhancing mass ,CC,"malignant mass, irregular",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P278_L_DM_CC
+P233_R_CM_CC,233.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P233_R_DM_CC
+P256_L_CM_CC,256.0,L,CESM,4,Heterogenous enhacement ,CC,suspicious ,1.0,Malignant,"Biopsy: IDC, IBC",,,,,,,,,,,,P256_L_DM_CC
+P312_L_CM_MLO,312.0,L,CESM,5,Heterogenously enhancing mass ,MLO,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P312_L_DM_MLO
+P206_L_CM_MLO,206.0,L,CESM,4,Heterogenously enhancing mass with indistinct margin,MLO,"suspicious mass, indistinct",1.0,Malignant,Malignant but no path,,,,,,,,163 4,158 5 ,,,P206_L_DM_MLO
+P84_R_CM_MLO,84.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P84_R_DM_MLO
+P265_R_CM_MLO,265.0,R,CESM,5$2,Heterogenously enhancing mass with microlobulated margin$Stippled enhancement,MLO,"suspicous mass,microlobulated, adenosis",1.0,Malignant,Cth -> WLE: IDC,,,,,,,,,,,,P265_R_DM_MLO
+P216_L_CM_MLO,216.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P216_L_DM_MLO
+P15_R_CM_MLO,15.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,"correct, not cropped",correct,,,,,,,,P15_R_DM_MLO
+P32_L_CM_MLO,32.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P32_L_DM_MLO
+P36_R_CM_MLO,36.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P36_R_DM_MLO
+P244_R_CM_MLO,244.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P244_R_DM_MLO
+P24_R_CM_CC,24.0,R,CESM,5,Heterogenously enhancing mass with surrounding satellites,CC,"malignant mass, multiple, microlobulated, suspicious microcalcifications",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P24_R_DM_CC
+P101_L_CM_CC,101.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P101_L_DM_CC
+P65_R_CM_MLO,65.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,,,,,,,,,,,,P65_R_DM_MLO
+P115_R_CM_CC,115.0,R,CESM,5,Clumped segmental non mass enhancement ,CC,"maignant non mass, clumped segmental",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P115_R_DM_CC
+P160_R_CM_CC,160.0,R,CESM,2,Flap with no enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P160_R_DM_CC
+P106_L_CM_MLO,106.0,L,CESM,5,Irregular rim enhancement,MLO,"malignant, irregular rim",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P106_L_DM_MLO
+P249_L_CM_CC,249.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P249_L_DM_CC
+P255_R_CM_MLO,255.0,R,CESM,2,Dilated retroareolar duct,MLO,dilated duct,1.0,Benign,,Benign,,,,,,,,,,,P255_R_DM_MLO
+P314_R_CM_MLO,314.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P314_R_DM_MLO
+P144_R_CM_MLO,144.0,R,CESM,2,Non enhancement ,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P144_R_DM_MLO
+P87_L_CM_CC,87.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,WLE: IDC,,,,,,,,,,,,P87_L_DM_CC
+P107_R_CM_CC,107.0,R,CESM,5,Heterogenously enhancing mass and non mass enhancement ,CC,"malignant mass, malignant non mass ",1.0,Malignant,MRM: ILC,,,,,,,,,,,,P107_R_DM_CC
+P221_L_CM_CC,221.0,L,CESM,4,Heterogenously enhancing mass,CC,suspicious mass,1.0,Malignant,MRM: Mixed IDC + ILC,see report,,,,,,,,,,,P221_L_DM_CC
+P93_L_CM_MLO,93.0,L,CESM,5,Heterogenously enhancing mass,MLO,malignant mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P93_L_DM_MLO
+P84_L_CM_CC,84.0,L,CESM,5,Segmental non mass enhancement ,CC,"malignant non mass, segmental",1.0,Malignant,Cth -> MRM: ILC ? IBC,,,,,,,,,,,,P84_L_DM_CC
+P314_L_CM_CC,314.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin and rim enhancing mass with circumscribed margin,CC,"malignant mass, microlobulated, multiple, rim ",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P314_L_DM_CC
+P297_R_CM_CC,297.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P297_R_DM_CC
+P259_R_CM_CC,259.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P259_R_DM_CC
+P87_R_CM_CC,87.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P87_R_DM_CC
+P322_L_CM_MLO,322.0,L,CESM,4,Heterogenously enahncing mass with ductal extension and surrounding satellites ,MLO,"suspicious mass, ductal extension, satellites",1.0,Malignant,MRM: ILC,,,,,,,,,,,,P322_L_DM_MLO
+P293_L_CM_CC,293.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P293_L_DM_CC
+P116_R_CM_MLO,116.0,R,CESM,5,Heterogenously enhancing mass ,MLO,malignant mass,1.0,Malignant,No path,,,,,,,,,,,,P116_R_DM_MLO
+P195_R_CM_MLO,195.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P195_R_DM_MLO
+P59_L_CM_CC,59.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P59_L_DM_CC
+P169_L_CM_MLO,169.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P169_L_DM_MLO
+P232_R_CM_CC,232.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P232_R_DM_CC
+P304_L_CM_MLO,304.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P304_L_DM_MLO
+P128_L_CM_MLO,128.0,L,CESM,3,Faint focal enhancement ,MLO,"benign, focus",1.0,Benign,,Benign,,,,,,,,,,,P128_L_DM_MLO
+P64_L_CM_CC,64.0,L,CESM,2,IMLN ,CC,"benign, IMLN",1.0,Benign,,,,,,,,,,,,,P64_L_DM_CC
+P16_L_CM_CC,16.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P16_L_DM_CC
+P299_L_CM_MLO,299.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P299_L_DM_MLO
+P105_R_CM_MLO,105.0,R,CESM,5,Heterogenously enhancing mass and clumped segmental non mass enhancement ,MLO,"malignant mass, malignant non mass, clumped segmental",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P105_R_DM_MLO
+P174_L_CM_CC,174.0,L,CESM,4,Irregular enhancing mass,CC,"suspicious mass, irregular",1.0,Malignant,MRM: IDC with DCIS,,,,,,,,,,,,P174_L_DM_CC
+P262_L_CM_CC,262.0,L,CESM,4,Heterogenously enhancing mass and segmental non mass enhancement,CC,"suspicious mass, non mass, segmental",1.0,Malignant,see report,,,,,,,,,,,,P262_L_DM_CC
+P132_R_CM_CC,132.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Benign,Benign: Fibroadenosis,,,,,,,,,,,,P132_R_DM_CC
+P202_L_CM_CC,202.0,L,CESM,4,Irregular focus mass enhancement,CC,"suspicious mass, focus, irregular",1.0,Malignant,see report,,,,,,,,,,,,P202_L_DM_CC
+P144_L_CM_MLO,144.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P144_L_DM_MLO
+P8_L_CM_MLO,8.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P8_L_DM_MLO
+P202_R_CM_MLO,202.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,,,,,,,,,,,,P202_R_DM_MLO
+P207_L_CM_CC,207.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,CC,"malignant mass, speculated",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P207_L_DM_CC
+P196_L_CM_CC,196.0,L,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P196_L_DM_CC
+P274_L_CM_CC,274.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and deep central heterogenous enhancement,CC,"malignant mass, multiple, speculated",1.0,Malignant,Cth -> WLE: IDC,,,,,,,,,,,,P274_L_DM_CC
+P24_L_CM_CC,24.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P24_L_DM_CC
+P165_L_CM_MLO,165.0,L,CESM,4,Focal non mass enhancement and enhancing nodule,MLO,"suspicious non mass, focal, multiple, multicentric",2.0,Malignant,Get path,,,,,,,,,,,,P165_L_DM_MLO
+P141_L_CM_MLO,141.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P141_L_DM_MLO
+P140_L_CM_CC,140.0,L,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P140_L_DM_CC
+P59_R_CM_MLO,59.0,R,CESM,5,Heterogenously enhancing irregular mass ,MLO,"malignant mass, irregular",1.0,Malignant,MRM: Glycogen rich ca,,,,,,,,,,,,P59_R_DM_MLO
+P53_R_CM_CC,53.0,R,CESM,4,Multiple periareolar and outer scattered small enhancing nodules ,CC,"suspicious, nodules",1.0,Malignant,Cth -> MRM: IDC,,,,,,?,,,,,,P53_R_DM_CC
+P253_L_CM_MLO,253.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,,,,,,,,,,,,P253_L_DM_MLO
+P325_R_CM_MLO,325.0,R,CESM,3,Homogenously enhancing mass with circumscribed margin$IMLN,MLO,"benign mass, fibroadenoma",1.0,Benign,,Benign,,,,,,,,,,,P325_R_DM_MLO
+P122_L_CM_MLO,122.0,L,CESM,5,Three heterogenously enhancing masses with microlobulated margin and nipple retraction,MLO,"malignant mass, multiple, multifocal, microlobulated, nipple retraction",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P122_L_DM_MLO
+P165_L_CM_CC,165.0,L,CESM,4,Focal non mass enhancement and enhancing nodule,CC,"suspicious non mass, focal, multiple, multicentric",2.0,Malignant,Get path,,,,,,,,,,,,P165_L_DM_CC
+P144_L_CM_CC,144.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P144_L_DM_CC
+P275_R_CM_CC,275.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P275_R_DM_CC
+P96_L_CM_CC,96.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P96_L_DM_CC
+P313_L_CM_MLO,313.0,L,CESM,5,Heterogenously enhancing irregular mass and multiple enhancing nodules,MLO,"malignant mass, multiple",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P313_L_DM_MLO
+P260_L_CM_MLO,260.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P260_L_DM_MLO
+P28_R_CM_CC,28.0,R,CESM,2,Non enhancement ,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P28_R_DM_CC
+P283_R_CM_CC,283.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P283_R_DM_CC
+P289_R_CM_MLO,289.0,R,CESM,4,Multiple enhancing nodules,MLO,"suspicious nodules, multiple, multifocal",1.0,Malignant,Cth -> MRM: IDC ,,,,,,,,,,,,P289_R_DM_MLO
+P310_L_CM_CC,310.0,L,CESM,5,Multiple irregular heterogenously enhancing masses ,CC,"malignant mass, multiple, multicentric, irregular",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P310_L_DM_CC
+P307_L_CM_MLO,307.0,L,CESM,5,Multiple irregular heterogenously enhancng masses reaching to the nipple and retracting it,MLO,"malignant mass, multiple, multicentric, irregular, nipple retraction",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P307_L_DM_MLO
+P295_L_CM_CC,295.0,L,CESM,3,Faintly enhancing oval mass with circumscribed margin,CC,"benign mass, faint, circumscribed, oval",1.0,Benign,,Benign,,,,,,,,,,,P295_L_DM_CC
+P310_R_CM_CC,310.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P310_R_DM_CC
+P143_L_CM_CC,143.0,L,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P143_L_DM_CC
+P257_L_CM_CC,257.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P257_L_DM_CC
+P132_L_CM_MLO,132.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P132_L_DM_MLO
+P28_R_CM_MLO,28.0,R,CESM,2,Non enhancement ,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P28_R_DM_MLO
+P238_R_CM_MLO,238.0,R,CESM,3,Homogenously enhancing lesion with circumscribed margin,MLO,"benign mass, circumscribed, fibroadenoma",1.0,Benign,WLE: Benign Fibroadenoma,,,,,,,,,,,,P238_R_DM_MLO
+P84_R_CM_CC,84.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P84_R_DM_CC
+P188_L_CM_CC,188.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P188_L_DM_CC
+P114_R_CM_CC,114.0,R,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Benign,,Benign,,,,,,,,,,,P114_R_DM_CC
+P4_L_CM_MLO ,4.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,correct,correct,,Artifact,,,,,,P4_L_DM_MLO
+P56_L_CM_MLO,56.0,L,CESM,4,Heterogenously enhancing mass ,MLO,suspicious mass,2.0,Malignant,Biopsy: Invasive micropapillary ca with DCIS,,,,,,,,,,,,P56_L_DM_MLO
+P290_L_CM_CC,290.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P290_L_DM_CC
+P114_R_CM_MLO,114.0,R,CESM,4,Focal ill defined faintly enhancing mass,MLO,suspicious mass ,2.0,Benign,,Benign,,,,,,,,,,,P114_R_DM_MLO
+P317_R_CM_CC,317.0,R,CESM,2,Stippled enhancement ,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P317_R_DM_CC
+P197_L_CM_CC,197.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P197_L_DM_CC
+P257_R_CM_CC,257.0,R,CESM,5,Heterogenously enhancing mass with speculated margin ,CC,"malignant mass, speculated",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P257_R_DM_CC
+P16_R_CM_MLO,16.0,R,CESM,4,Axillary heterogenously enhancing mass,MLO,"malignant, mass, axillary",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P16_R_DM_MLO
+P232_R_CM_MLO,232.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P232_R_DM_MLO
+P44_L_CM_MLO,44.0,L,CESM,2,Non enhancement ,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P44_L_DM_MLO
+P148_L_CM_CC,148.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P148_L_DM_CC
+P65_R_CM_CC,65.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,,,,,,,,,,,,P65_R_DM_CC
+P302_R_CM_MLO,302.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P302_R_DM_MLO
+P14_L_CM_CC,14.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,correct,correct,,,,,,,,P14_L_DM_CC
+P80_R_CM_MLO,80.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P80_R_DM_MLO
+P18_R_CM_CC,18.0,R,CESM,2,Focus enhancement ,CC,"benign, masses, multiple",1.0,Benign,,Benign,,,,,,,,,,,P18_R_DM_CC
+P233_L_CM_CC,233.0,L,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P233_L_DM_CC
+P201_R_CM_MLO,201.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Malignant,,,,,,,,,,,,,P201_R_DM_MLO
+P3_L_CM_MLO,3.0,L,CESM,5,Heterogenously enhancing mass with speculated margin ,MLO,"malignant, mass, speculated",1.0,Malignant,WLE: metaplastic ca -> recurrence MRM: IDC,,,correct,correct,,,,,,,,P3_L_DM_MLO
+P309_L_CM_MLO,309.0,L,CESM,4,Segmental non mass enhancement ,MLO,"suspicious non mass, segmental",1.0,Benign,,,,,,,,,,,,,P309_L_DM_MLO
+P271_R_CM_MLO,271.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P271_R_DM_MLO
+P90_R_CM_CC,90.0,R,CESM,3,Foci of enhancement ,CC,foci,2.0,Malignant,MDE: DCIS ,,,,,,,,,,,,P90_R_DM_CC
+P32_R_CM_CC,32.0,R,CESM,4,Clumped segmental non mass enhancement ,CC,"suspicious non mass, clumped, segmental",1.0,Malignant,MRM: solid and comedo DCIS with fci of stromal microinvasion,,,,,,,,,,,,P32_R_DM_CC
+P230_R_CM_MLO,230.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Malignant,see report,,,,,,,,,,,,P230_R_DM_MLO
+P243_L_CM_MLO,243.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P243_L_DM_MLO
+P317_L_CM_CC,317.0,L,CESM,5$2,Heterogenously enhancing mass$Stippled enhancement ,CC,"malignant mass, adenosis, chloroma",1.0,Malignant,WLE: Granulocytic/myeloid sarcoma (chloroma),,,,,,,,,,,,P317_L_DM_CC
+P142_R_CM_CC,142.0,R,CESM,3,Faintly enhancing oval mass with circumscribed margin,CC,"benign mass, faint, circumscribed",2.0,Benign,,see report,,,,,,,,,,,P142_R_DM_CC
+P299_L_CM_CC,299.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P299_L_DM_CC
+P144_R_CM_CC,144.0,R,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P144_R_DM_CC
+P93_L_CM_CC,93.0,L,CESM,5,Heterogenously enhancing mass,CC,malignant mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P93_L_DM_CC
+P213_L_CM_MLO,213.0,L,CESM,4,Heterogenously enahncing mass with ductal extension and surrounding satellites ,MLO,"suspicious mass, ductal extension, satellites",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P213_L_DM_MLO
+P89_L_CM_MLO,89.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P89_L_DM_MLO
+P279_L_CM_MLO,279.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,Artifact,,,,,P279_L_DM_MLO
+P99_L_CM_CC,99.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P99_L_DM_CC
+P143_R_CM_MLO,143.0,R,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P143_R_DM_MLO
+P111_L_CM_CC,111.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P111_L_DM_CC
+P173_L_CM_MLO,173.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,MLO,"malignant mass, microlobulated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P173_L_DM_MLO
+P269_L_CM_MLO,269.0,L,CESM,5,Irregular rim enhancing mass,MLO,"malignant mass, irregular rm",1.0,Malignant,WLE: Borderline Phylloides,,,,,,,,,,,,P269_L_DM_MLO
+P306_L_CM_MLO,306.0,L,CESM,4,Multiple heterogenously enhancing irregular foci,MLO,"suspicious foci, multiple, multicentric, irregular  ",1.0,Malignant,see report,,,,,,,,,,,,P306_L_DM_MLO
+P273_R_CM_MLO,273.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P273_R_DM_MLO
+P207_R_CM_CC,207.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P207_R_DM_CC
+P216_L_CM_CC,216.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P216_L_DM_CC
+P52_R_CM_MLO,52.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P52_R_DM_MLO
+P183_L_CM_MLO,183.0,L,CESM,4,Heterogenous mass enhancement,MLO,suspicious mass,1.0,Malignant,"Cth -> MRM: IDC , IBC",,,,,,,,,,,,P183_L_DM_MLO
+P244_L_CM_MLO,244.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P244_L_DM_MLO
+P94_L_CM_MLO,94.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P94_L_DM_MLO
+P266_R_CM_CC,266.0,R,CESM,5,Two irregular rim enhancing masses ,CC,"malibnant mass, multiple, multifocal, irregular rim",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P266_R_DM_CC
+P177_L_CM_MLO,177.0,L,CESM,2,Homogenously enhancing mass with circumscribed margin,MLO,"benign mass, circumscribed, homogenous",1.0,Benign,,Benign,,,,,,,,,,,P177_L_DM_MLO
+P6_L_CM_MLO,6.0,L,CESM,3,Enhancing mass with dark internal septations,MLO,"benign, mass, fibroadenoma",1.0,Benign,,Benign,,correct,correct,,,,,,,,P6_L_DM_MLO
+P272_L_CM_CC,272.0,L,CESM,5,Linear non mass enhancement,CC,"malignant non mass, linear",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P272_L_DM_CC
+P138_R_CM_CC,138.0,R,CESM,5,Segmental non mass enhancement and nipple retraction,CC,"malignant non mass, segmental, nipple retraction",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P138_R_DM_CC
+P267_L_CM_CC,267.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,CC,"malignant mass, speculated",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P267_L_DM_CC
+P227_R_CM_MLO,227.0,R,CESM,3,Focal non mass enhancement,MLO,focal non mass,1.0,Benign,,Benign,,,,,,,,,,,P227_R_DM_MLO
+P124_L_CM_MLO,124.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P124_L_DM_MLO
+P292_L_CM_CC,292.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P292_L_DM_CC
+P294_R_CM_CC,294.0,R,CESM,2,Non enhancement,CC,benign,1.0,Benign,,Benign,,,,,,,,,,,P294_R_DM_CC
+P206_R_CM_MLO,206.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P206_R_DM_MLO
+P33_L_CM_CC,33.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P33_L_DM_CC
+P105_L_CM_CC,105.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P105_L_DM_CC
+P2_R_CM_CC,2.0,R,CESM,3,Multiple homogenously enhancing  masses ,CC,"benign, masses, homogenous",2.0,Benign,,Benign,,missing,correct,,,,,,,,P2_R_DM_CC
+P123_R_CM_CC,123.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites with enhancing foci and nipple retraction,CC,"malignant mass, speculated, multiple, multifocal, satellites, nipple retraction",1.0,Malignant,MRM: Multicentric IDC,,,,,,,,,,,,P123_R_DM_CC
+P143_R_CM_CC,143.0,R,CESM,2,Non enhacement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P143_R_DM_CC
+P175_R_CM_MLO,175.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P175_R_DM_MLO
+P281_R_CM_CC,281.0,R,CESM,4$3,Faint irregular heterogenously enhancing mass$ Homogenously enhancing mass,CC,"suspicious mass, intradermal nodule, sebacous cyst",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P281_R_DM_CC
+P76_R_CM_CC,76.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P76_R_DM_CC
+P122_L_CM_CC,122.0,L,CESM,5,Three heterogenously enhancing masses with microlobulated margin and nipple retraction,CC,"malignant mass, multiple, multifocal, microlobulated, nipple retraction",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P122_L_DM_CC
+P321_R_CM_MLO,321.0,R,CESM,4,Irregular heterogenously enhancing mass and multiple regions,MLO,"posoperative, surgical clips, suspicious architectural distortion, nodular density, multicentric, microcalcifications.clusters",1.0,Malignant,MRM: Invasive mammary ca,,,,,,,,,,,,P321_R_DM_MLO
+P100_L_CM_CC,100.0,L,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P100_L_DM_CC
+P293_R_CM_MLO,293.0,R,CESM,4,Irregualr rim enhancing mass,MLO,"suspicious mass, rim",1.0,Benign,Biopsy: Benign caseating granulomatous inflammation (TB),,,,,,,,,,,,P293_R_DM_MLO
+P306_L_CM_CC,306.0,L,CESM,4,Multiple heterogenously enhancing irregular foci,CC,"suspicious foci, multiple, multicentric, irregular  ",1.0,Malignant,see report,,,,,,,,,,,,P306_L_DM_CC
+P44_R_CM_CC,44.0,R,CESM,2,Non enhancement ,CC,"benign mass, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P44_R_DM_CC
+P27_L_CM_MLO,27.0,L,CESM,4,Multiple tiny enhancing foci ,MLO,"multiple, foci, suspicious",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P27_L_DM_MLO
+P218_L_CM_MLO,218.0,L,CESM,5,Segmental non mass enhancement with surroudning satellites,MLO,"malignant non mass, segmental, satellites",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P218_L_DM_MLO
+P98_L_CM_CC,98.0,L,CESM,4,Clustered ring enhancment,CC,"suspicious non mass, clustered ring",1.0,Benign,WLE: Benign granulomatous mastitis and abscess,,,,,,,,,,,,P98_L_DM_CC
+P154_L_CM_CC,154.0,L,CESM,2,Non enhancement ,CC,"benign, non enhancement",1.0,Malignant,Biopsy: Lymphoma,see report,,,,,,,,,,,P154_L_DM_CC
+P284_L_CM_MLO,284.0,L,CESM,3,Non enhancement,MLO,benign,1.0,Benign,WLE: Benign fibrocystic mastopathy with papillary hyperplasia,,,,,,,,,,,,P284_L_DM_MLO
+P320_R_CM_CC,320.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P320_R_DM_CC
+P150_R_CM_MLO,150.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P150_R_DM_MLO
+P198_L_CM_MLO,198.0,L,CESM,5,Postoperative scar with two heterogenously enhancing masses and surrounding satellites,MLO,"postoperative, malignant mass, multiple, multicentric, speculated, satellites, recurrence",1.0,Malignant,see report,,,,,,,,,,,,P198_L_DM_MLO
+P18_L_CM_CC,18.0,L,CESM,4,Ductal non mass enhancement,CC,"suspicious, non mass, ductal ",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P18_L_DM_CC
+P286_L_CM_MLO,286.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P286_L_DM_MLO
+P326_R_CM_CC,326.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P326_R_DM_CC
+P121_L_CM_CC,121.0,L,CESM,4,Heterogenous rim enhancing mass ,CC,"suspicious mass, rim",1.0,Malignant,WLE: ILC,,,,,,,,,,,,P121_L_DM_CC
+P203_R_CM_MLO,203.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P203_R_DM_MLO
+P1_L_CM_MLO,1.0,L,CESM,4,Heterogenously enhancing mass ,MLO,"suspicious, mass",1.0,Malignant,MRM: DCIS with microinvasion,,,correct,correct,,,,,,,,P1_L_DM_MLO
+P137_L_CM_MLO,137.0,L,CESM,4,Regional non mass enhancement and enhacing foci,MLO,"regional, enhancing foci ",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P137_L_DM_MLO
+P322_R_CM_CC,322.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P322_R_DM_CC
+P237_R_CM_MLO,237.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P237_R_DM_MLO
+P215_R_CM_CC,215.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P215_R_DM_CC
+P214_R_CM_MLO,214.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P214_R_DM_MLO
+P283_L_CM_CC,283.0,L,CESM,4,Heterogenously enhancing mass,CC,suspicious mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P283_L_DM_CC
+P62_L_CM_MLO,62.0,L,CESM,2,IMLN ,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P62_L_DM_MLO
+P306_R_CM_MLO,306.0,R,CESM,5,Regional non mass enhancement ,MLO,"malignant non mass, regional",1.0,Malignant,see report,,,,,,,,,,,,P306_R_DM_MLO
+P97_R_CM_CC,97.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P97_R_DM_CC
+P283_R_CM_MLO,283.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P283_R_DM_MLO
+P81_L_CM_CC,81.0,L,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P81_L_DM_CC
+P181_L_CM_MLO,181.0,L,CESM,4,Heterogenous enhacement ,MLO,suspicious,1.0,Benign,Biopsy: Benign chronic granulomatous mastitis with microabscess formation,,,,,,,,,,,,P181_L_DM_MLO
+P40_R_CM_CC,40.0,R,CESM,3,Regular rim enhancement,CC,"benign mass, regular rim",1.0,Benign,,Benign,,,,,,,,,,,P40_R_DM_CC
+P176_L_CM_MLO,176.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,,,,,,,,,,,,P176_L_DM_MLO
+P5_L_CM_CC,5.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P5_L_DM_CC
+P214_L_CM_MLO,214.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Malignant,see report,,,,,,,,,,,,P214_L_DM_MLO
+P154_R_CM_CC,154.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P154_R_DM_CC
+P115_L_CM_MLO,115.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P115_L_DM_MLO
+P212_R_CM_MLO,212.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P212_R_DM_MLO
+P45_R_CM_CC,45.0,R,CESM,3,Non enhancement ,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P45_R_DM_CC
+P282_L_CM_CC,282.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P282_L_DM_CC
+P258_R_CM_MLO,258.0,R,CESM,5,Linear non mass enhancement,MLO,"malignant non mass, linear",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P258_R_DM_MLO
+P235_L_CM_MLO,235.0,L,CESM,2,Foci of enhancement,MLO,adenosis,2.0,Benign,,Benign,,,,,,,,,,,P235_L_DM_MLO
+P275_L_CM_MLO,275.0,L,CESM,5,Multiple heterogenously enhancing masses with speculated margin ,MLO,"malignant mass, multiple, multifocal, speculated",1.0,Malignant,Biopsy: Undifferentiated ca likely metaplastic ca,,,,,,,,,,,,P275_L_DM_MLO
+P177_R_CM_MLO,177.0,R,CESM,5,Heterogenous mass enhancement and nipple retraction,MLO,"malignant mass, nipple retraction",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P177_R_DM_MLO
+P170_R_CM_MLO,170.0,R,CESM,2,Stippled enhancement ,MLO,"adenosis, stippled",1.0,Benign,,Benign,,,,,,,,,,,P170_R_DM_MLO
+P52_L_CM_MLO,52.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P52_L_DM_MLO
+P205_L_CM_MLO,205.0,L,CESM,4,Partial rim enhancing mass with circumscribed margin,MLO,"suspicious mass, partial rim, circumscribed",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P205_L_DM_MLO
+P268_L_CM_CC,268.0,L,CESM,5,Heterogeously enhancing mass with speculated margin,CC,"malignant mass, speculated ",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P268_L_DM_CC
+P82_L_CM_CC,82.0,L,CESM,5,Multiple homogenously enhancing  masses with speculated margin,CC,"malgnant mass, multiple, homogenous, speculated, multicentric",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P82_L_DM_CC
+P76_L_CM_MLO,76.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P76_L_DM_MLO
+P308_R_CM_CC,308.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P308_R_DM_CC
+P123_R_CM_MLO,123.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites with enhancing foci and nipple retraction,MLO,"malignant mass, speculated, multiple, multifocal, satellites, nipple retraction",1.0,Malignant,MRM: Multicentric IDC,,,,,,,,,,,,P123_R_DM_MLO
+P122_R_CM_CC,122.0,R,CESM,4,Heterogenously enhancing mass with indistinct margin,CC,"suspicious mass, indistinct",1.0,Benign,WLE: Benign Fibroadenoma,,,,,,,,,,,,P122_R_DM_CC
+P313_R_CM_MLO,313.0,R,CESM,4,Segmental non mass enhancement and multiple enhancing nodules,MLO,"suspicious non mass, segmental, nodules, multiple",1.0,Malignant,Cth -> MRM: DCIS,,,,,,,,,,,,P313_R_DM_MLO
+P289_R_CM_CC,289.0,R,CESM,4,Multiple enhancing nodules,CC,"suspicious nodules, multiple, multifocal",1.0,Malignant,Cth -> MRM: IDC ,,,,,,,,,,,,P289_R_DM_CC
+P261_L_CM_MLO,261.0,L,CESM,4,Segmental non mass enhancement ,MLO,"suspicious non mass, segmental",1.0,Malignant,Cth -> WLE: IDC with clinging type,,,,,,,,,,,,P261_L_DM_MLO
+P254_L_CM_MLO,254.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P254_L_DM_MLO
+P55_R_CM_MLO,55.0,R,CESM,5,Two heterogenously enhancing irregular masses ,MLO,"malignant mass, multiple, irregular, recurrence",1.0,Malignant,"CBS, Cth and Rth -> MRM: IDC",,,,,,,,,,,,P55_R_DM_MLO
+P14_R_CM_MLO,14.0,R,CESM,4,Cobblestone enhancement,MLO,"suspicious, cobblestone",2.0,Benign,,Benign,,missing,correct,,,,,,,,P14_R_DM_MLO
+P72_R_CM_CC,72.0,R,CESM,5,Two heterogenously enhancing masses with ductal extension,CC,"malignant mass, multiple, ductal extension",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P72_R_DM_CC
+P174_R_CM_MLO,174.0,R,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P174_R_DM_MLO
+P272_L_CM_MLO,272.0,L,CESM,5,Linear non mass enhancement,MLO,"malignant non mass, linear",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P272_L_DM_MLO
+P141_R_CM_MLO,141.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P141_R_DM_MLO
+P302_L_CM_CC,302.0,L,CESM,5,Heterogenously ehancing mass with indistinct margin,CC,"malignant mass, indistinct",1.0,Benign,"Lumpectomy: fibroadenoma, mixed type",,,,,,,,,,,,P302_L_DM_CC
+P298_R_CM_MLO,298.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P298_R_DM_MLO
+P3_L_CM_CC ,3.0,L,CESM,5,Heterogenously enhancing mass with speculated margin ,CC,"malignant, mass, speculated",1.0,Malignant,WLE: metaplastic ca -> recurrence MRM: IDC,,,correct,correct,,,,,,,,P3_L_DM_CC
+P238_L_CM_CC,238.0,L,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P238_L_DM_CC
+P211_L_CM_MLO,211.0,L,CESM,3,Multiple rim mass enhancement ,MLO,"benign mass, multiple, rim, cysts",1.0,Malignant,MRM: IDC with major DCIS,see report,,,,,,,,,,,P211_L_DM_MLO
+P31_L_CM_CC,31.0,L,CESM,2,Stippled enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P31_L_DM_CC
+P7_L_CM_MLO,7.0,L,CESM,5,Heterogenously enhancing mass with speculated margin ,MLO,"malignant, mass, speculated",1.0,Malignant,Invasive mammary ca with papillary features,,,correct,correct,,,,,,,,P7_L_DM_MLO
+P32_L_CM_CC,32.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P32_L_DM_CC
+P303_R_CM_CC,303.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P303_R_DM_CC
+P81_L_CM_MLO,81.0,L,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P81_L_DM_MLO
+P212_L_CM_MLO,212.0,L,CESM,5,Multiple heterogenously enhancing masses with speculated margin,MLO,"malignant mass, multiple, speculated",1.0,Malignant,Biopsy: DCIS with microinvasion,,,,,,,,,,,,P212_L_DM_MLO
+P211_R_CM_MLO,211.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P211_R_DM_MLO
+P196_L_CM_MLO,196.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Benign,,Benign,,,,,,,,,,,P196_L_DM_MLO
+P65_L_CM_CC,65.0,L,CESM,3,Enhancing mass with dark internal septations,CC,"benign mass, fibroadenoma, dark internal septations",1.0,Benign,Biopsy: Benign pericanalicular fibroadenoma,,,,,,,,,,,,P65_L_DM_CC
+P304_R_CM_CC,304.0,R,CESM,5,Heterogenously enhancing mas with speculated margin and linear non mass enhancement reaching to the nipple,CC,"malignant mass, speculated, non mass, linear",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P304_R_DM_CC
+P162_L_CM_CC,162.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P162_L_DM_CC
+P222_L_CM_CC,222.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Benign,see report,,,,,,,,,,,,P222_L_DM_CC
+P280_L_CM_MLO,280.0,L,CESM,5,Multiple irregular heterogenously enhancing masses ,MLO,"malignant mass, multiple, irregular",1.0,Malignant,Cth -> MRM: Mixed IDC + ILC,,,,,,,,,,,,P280_L_DM_MLO
+P48_L_CM_CC,48.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P48_L_DM_CC
+P298_L_CM_MLO,298.0,L,CESM,5,Linear non mass enhancement ,MLO,"malignant non mass, linear",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P298_L_DM_MLO
+P273_R_CM_CC,273.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P273_R_DM_CC
+P185_R_CM_CC,185.0,R,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P185_R_DM_CC
+P227_L_CM_MLO,227.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P227_L_DM_MLO
+P247_L_CM_MLO,247.0,L,CESM,5,Two heterogenously enhancing masses with speculated margin,MLO,"malignant mass, speculated, multifocal",1.0,Malignant,WLE: Mixed IDC + ILC,,,,,,,,,,,,P247_L_DM_MLO
+P103_L_CM_CC,103.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P103_L_DM_CC
+P235_L_CM_CC,235.0,L,CESM,2,Foci of enhancement,CC,adenosis,2.0,Benign,,Benign,,,,,,,,,,,P235_L_DM_CC
+P102_L_CM_CC,102.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P102_L_DM_CC
+P87_L_CM_MLO,87.0,L,CESM,5,Two homogenously enhancing masses with indistinct margin and another mass with irregular rim enhancement and ductal non mass enhancement,MLO,"malignant mass, multiple, rim, malignant non mass, ductal ",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P87_L_DM_MLO
+P68_L_CM_MLO,68.0,L,CESM,2,Non enhancement ,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P68_L_DM_MLO
+P3_R_CM_CC,3.0,R,CESM,2,Dilated retroareolar duct,CC,"dilated duct, benign ",1.0,Benign,,Benign,,wrong,correct,,,,,,,,P3_R_DM_CC
+P270_L_CM_CC,270.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P270_L_DM_CC
+P293_R_CM_CC,293.0,R,CESM,4,Irregualr rim enhancing mass,CC,"suspicious mass, rim",1.0,Benign,Biopsy: Benign caseating granulomatous inflammation (TB),,,,,,,,,,,,P293_R_DM_CC
+P86_L_CM_CC,86.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P86_L_DM_CC
+P46_R_CM_CC,46.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P46_R_DM_CC
+P266_L_CM_MLO,266.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P266_L_DM_MLO
+P249_R_CM_CC,249.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites and enhancing foci,CC,"malignant mass, multiple, multifocal, speculated, satellites",1.0,Malignant,WLE: IDC with mucinous component,,,,,,,,,,,,P249_R_DM_CC
+P49_R_CM_MLO,49.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P49_R_DM_MLO
+P30_L_CM_CC,30.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P30_L_DM_CC
+P109_L_CM_CC,109.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P109_L_DM_CC
+P286_L_CM_CC,286.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P286_L_DM_CC
+P103_R_CM_CC,103.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P103_R_DM_CC
+P123_L_CM_CC,123.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P123_L_DM_CC
+P227_L_CM_CC,227.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P227_L_DM_CC
+P31_R_CM_MLO,31.0,R,CESM,2,Stippled enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P31_R_DM_MLO
+P29_R_CM_MLO,29.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P29_R_DM_MLO
+P140_L_CM_MLO,140.0,L,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P140_L_DM_MLO
+P54_R_CM_CC,54.0,R,CESM,2,Non enhancement ,CC,postoperative,1.0,Benign,,Postoperative,,,,,?,,,,,,P54_R_DM_CC
+P95_L_CM_CC,95.0,L,CESM,5,Heterogenously enhancing mass,CC,malignant mass ,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P95_L_DM_CC
+P155_R_CM_CC,155.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P155_R_DM_CC
+P119_R_CM_MLO,119.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P119_R_DM_MLO
+P274_L_CM_MLO,274.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and deep central heterogenous enhancement,MLO,"malignant mass, multiple, speculated",1.0,Malignant,Cth -> WLE: IDC,,,,,,,,,,,,P274_L_DM_MLO
+P103_R_CM_MLO,103.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P103_R_DM_MLO
+P174_R_CM_CC,174.0,R,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P174_R_DM_CC
+P20_R_CM_MLO,20.0,R,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P20_R_DM_MLO
+P55_R_CM_CC,55.0,R,CESM,5,Two heterogenously enhancing irregular masses ,CC,"malignant mass, multiple, irregular, recurrence",1.0,Malignant,"CBS, Cth and Rth -> MRM: IDC",,,,,,,,,,,,P55_R_DM_CC
+P26_L_CM_MLO,26.0,L,CESM,5,Homogenous regional non mass enhancement,MLO,"malignant non mass, regional",1.0,Benign,No path,,,,,,,,,,,,P26_L_DM_MLO
+P111_R_CM_CC,111.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,WLE: IDC,,,,,,,,,,,,P111_R_DM_CC
+P312_R_CM_MLO,312.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P312_R_DM_MLO
+P187_R_CM_CC,187.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,see report,,,,,,,,,,,,P187_R_DM_CC
+P304_L_CM_CC,304.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P304_L_DM_CC
+P285_L_CM_CC,285.0,L,CESM,3,Homogenously enhancing mass with circumscribed margin,CC,"benign mass, circumscribed, fibroadenoma",1.0,Benign,,Benign,,,,,,,,,,,P285_L_DM_CC
+P156_L_CM_CC,156.0,L,CESM,3,Non enhancement,CC,"benign, non enhancement",2.0,Malignant,Cth -> MRM: IDC,see report,,,,,,,,,,,P156_L_DM_CC
+P9_L_CM_MLO,9.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Benign,Benign: Para-areolar fat necrosis ,,,correct,correct,,,,,,,,P9_L_DM_MLO
+P146_L_CM_MLO,146.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P146_L_DM_MLO
+P318_L_CM_CC,318.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P318_L_DM_CC
+P35_L_CM_CC,35.0,L,CESM,2,Non enhancement ,CC,"benign mass, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P35_L_DM_CC
+P253_R_CM_MLO,253.0,R,CESM,5,Two heterogenously enhancing masses with speculated margin,MLO,"malignant mass, multiple, multifocal, speculated",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P253_R_DM_MLO
+P121_R_CM_MLO,121.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P121_R_DM_MLO
+P49_L_CM_CC,49.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P49_L_DM_CC
+P19_R_CM_MLO,19.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Benign,,Benign,,,,,,,,,,,P19_R_DM_MLO
+P254_L_CM_CC,254.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P254_L_DM_CC
+P317_R_CM_MLO,317.0,R,CESM,2,Stippled enhancement ,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P317_R_DM_MLO
+P105_R_CM_CC,105.0,R,CESM,5,Heterogenously enhancing mass and clumped segmental non mass enhancement ,CC,"malignant mass, malignant non mass, clumped segmental",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P105_R_DM_CC
+P225_L_CM_CC,225.0,L,CESM,4,Heterogenously enhancing mass with speculated margin,CC,"suspicious mass, speculated, recurrence",1.0,Malignant,see report,,,,,,,,,,,,P225_L_DM_CC
+P319_L_CM_CC,319.0,L,CESM,2,Glandular enhancement,CC,hamartoma,1.0,Benign,,Benign,,,,,,,,,,,P319_L_DM_CC
+P89_R_CM_MLO,89.0,R,CESM,5,Heterogenously irregular rim enhancement and ductal non mass enhancement,MLO,"malignant mass, rim, malignant non mass, ductal",1.0,Malignant,Cth -> MRM: mixed IDC + ILC ,,,,,,,,,,,,P89_R_DM_MLO
+P239_L_CM_CC,239.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P239_L_DM_CC
+P237_R_CM_CC,237.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P237_R_DM_CC
+P51_L_CM_CC,51.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P51_L_DM_CC
+P158_L_CM_MLO,158.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P158_L_DM_MLO
+P252_L_CM_MLO,252.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P252_L_DM_MLO
+P313_R_CM_CC,313.0,R,CESM,4,Segmental non mass enhancement and multiple enhancing nodules,CC,"suspicious non mass, segmental, nodules, multiple",1.0,Malignant,Cth -> MRM: DCIS,,,,,,,,,,,,P313_R_DM_CC
+P90_R_CM_MLO,90.0,R,CESM,3,Foci of enhancement ,MLO,foci,2.0,Malignant,MDE: DCIS ,,,,,,,,,,,,P90_R_DM_MLO
+P183_R_CM_MLO,183.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P183_R_DM_MLO
+P241_R_CM_CC,241.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P241_R_DM_CC
+P59_R_CM_CC,59.0,R,CESM,5,Heterogenously enhancing irregular mass ,CC,"malignant mass, irregular",1.0,Malignant,MRM: Glycogen rich ca,,,,,,,,,,,,P59_R_DM_CC
+P209_R_CM_MLO,209.0,R,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P209_R_DM_MLO
+P38_R_CM_CC,38.0,R,CESM,4,Homogenously enhancing mass with speculated margin,CC,suspicious mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P38_R_DM_CC
+P291_L_CM_CC,291.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P291_L_DM_CC
+P311_R_CM_MLO,311.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites and enhancing foci,MLO,"malignant mass, speculated, satellites, multifocal",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P311_R_DM_MLO
+P253_R_CM_CC,253.0,R,CESM,5,Two heterogenously enhancing masses with speculated margin,CC,"malignant mass, multiple, multifocal, speculated",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P253_R_DM_CC
+P129_R_CM_MLO,129.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P129_R_DM_MLO
+P262_R_CM_MLO,262.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P262_R_DM_MLO
+P179_L_CM_CC,179.0,L,CESM,4,Focal non mass enhancement,CC,"suspicious non mass, focal",1.0,Benign,see report,,,,,,,,,,,,P179_L_DM_CC
+P218_R_CM_CC,218.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P218_R_DM_CC
+P273_L_CM_CC,273.0,L,CESM,5,Heterogenously enhancing mass ,CC,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P273_L_DM_CC
+P14_L_CM_MLO,14.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,correct,correct,,,,,,,,P14_L_DM_MLO
+P50_R_CM_MLO,50.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P50_R_DM_MLO
+P300_L_CM_CC,300.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P300_L_DM_CC
+P97_L_CM_MLO,97.0,L,CESM,5,Two heterogenously enhancing masses and segmental non mass enhancement,MLO,"malignant mass, multiple, malignant non mass, segmental",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P97_L_DM_MLO
+P73_L_CM_CC,73.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P73_L_DM_CC
+P272_R_CM_CC,272.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P272_R_DM_CC
+P49_R_CM_CC,49.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P49_R_DM_CC
+P173_R_CM_CC,173.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P173_R_DM_CC
+P98_R_CM_CC,98.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P98_R_DM_CC
+P93_R_CM_MLO,93.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P93_R_DM_MLO
+P237_L_CM_MLO,237.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P237_L_DM_MLO
+P276_L_CM_CC,276.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,CC,"malignant mass, speculated",1.0,Malignant,see report,,,,,,,,,,,,P276_L_DM_CC
+P82_R_CM_CC,82.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P82_R_DM_CC
+P78_L_CM_CC,78.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P78_L_DM_CC
+P64_R_CM_CC,64.0,R,CESM,2,IMLN ,CC,"benign, IMLN",1.0,Malignant,WLE: IDC,see report,,,,,,,,,,,P64_R_DM_CC
+P266_L_CM_CC,266.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P266_L_DM_CC
+P146_R_CM_MLO,146.0,R,CESM,4,Multiple heterogenously enhancing masses with indistinct margin,MLO,"malignant mass, multiple, indistinct, multifocal",1.0,Malignant,MRM: Medullary ca,,,,,,,,,,,,P146_R_DM_MLO
+P217_L_CM_MLO,217.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,see report,,,,,,,,,,,,P217_L_DM_MLO
+P128_L_CM_CC,128.0,L,CESM,3,Faint focal enhancement ,CC,"benign, focus",1.0,Benign,,Benign,,,,,,,,,,,P128_L_DM_CC
+P193_L_CM_MLO,193.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P193_L_DM_MLO
+P24_L_CM_MLO,24.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P24_L_DM_MLO
+P25_L_CM_MLO,25.0,L,CESM,2,Non enhancement ,MLO,"benign mass, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P25_L_DM_MLO
+P298_L_CM_CC,298.0,L,CESM,5,Linear non mass enhancement ,CC,"malignant non mass, linear",1.0,Malignant,"Cth -> MRM: IDC, IBC",,,,,,,,,,,,P298_L_DM_CC
+P97_L_CM_CC,97.0,L,CESM,5,Two heterogenously enhancing masses and segmental non mass enhancement,CC,"malignant mass, multiple, malignant non mass, segmental",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P97_L_DM_CC
+P169_R_CM_CC,169.0,R,CESM,5,Regional non mass enhancement ,CC,"malignant non mass, regional",1.0,Malignant,No path,,,,,,,,,,,,P169_R_DM_CC
+P124_L_CM_CC,124.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P124_L_DM_CC
+P80_L_CM_CC,80.0,L,CESM,2,Non enhancement ,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P80_L_DM_CC
+P61_L_CM_CC,61.0,L,CESM,4,Irregular heterogenous enhancement,CC,suspicious mass,1.0,Benign,WLE: Benign fibrofatty muscular tissue most probably intramuscular lipoma,,,,,,?,,,,,,P61_L_DM_CC
+P314_L_CM_MLO,314.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin and rim enhancing mass with circumscribed margin,MLO,"malignant mass, microlobulated, multiple, rim ",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P314_L_DM_MLO
+P7_R_CM_MLO,7.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P7_R_DM_MLO
+P41_L_CM_CC,41.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P41_L_DM_CC
+P154_L_CM_MLO,154.0,L,CESM,2,Non enhancement ,MLO,"benign, non enhancement",1.0,Malignant,Biopsy: Lymphoma,see report,,,,,,,,,,,P154_L_DM_MLO
+P136_L_CM_MLO,136.0,L,CESM,2,Faint enhancement ,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P136_L_DM_MLO
+P10_L_CM_CC,10.0,L,CESM,2,Foci of enhancement ,CC,"adenosis, foci",1.0,Benign,,Benign,,correct,correct,,,,,,,,P10_L_DM_CC
+P141_L_CM_CC,141.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P141_L_DM_CC
+P106_R_CM_CC,106.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P106_R_DM_CC
+P309_L_CM_CC,309.0,L,CESM,4,Segmental non mass enhancement ,CC,"suspicious non mass, segmental",1.0,Benign,,,,,,,,,,,,,P309_L_DM_CC
+P138_L_CM_MLO,138.0,L,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P138_L_DM_MLO
+P145_R_CM_CC,145.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P145_R_DM_CC
+P155_L_CM_CC,155.0,L,CESM,4,Multiple heterogenously enhancing masses ,CC,"suspicious mass, multiple, multicentric",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P155_L_DM_CC
+P209_L_CM_CC,209.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,CC,"malignant mass, microlobulated",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P209_L_DM_CC
+P13_R_CM_CC,13.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,wrong,correct,,,,,,,,P13_R_DM_CC
+P34_L_CM_CC,34.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P34_L_DM_CC
+P110_R_CM_MLO,110.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P110_R_DM_MLO
+P118_L_CM_CC,118.0,L,CESM,2,Non enhancement ,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P118_L_DM_CC
+P115_L_CM_CC,115.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P115_L_DM_CC
+P18_L_CM_MLO,18.0,L,CESM,4,Ductal non mass enhancement,MLO,"suspicious, non mass, ductal ",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P18_L_DM_MLO
+P143_L_CM_MLO,143.0,L,CESM,1,No mass or non mass enhancement$Portacath,MLO,"normal, portacath",1.0,Normal,,Normal,,,,,,,,,,,P143_L_DM_MLO
+P214_L_CM_CC,214.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Malignant,see report,,,,,,,,,,,,P214_L_DM_CC
+P255_R_CM_CC,255.0,R,CESM,2,Dilated retroareolar duct,CC,dilated duct,1.0,Benign,,Benign,,,,,,,,,,,P255_R_DM_CC
+P259_L_CM_MLO,259.0,L,CESM,5,Two irregular heterogenously enhancing masses ,MLO,"malignant mass, multiple, multifocal, irregular",1.0,Malignant,Cth -> WLE: ILC,,,,,,,,,,,,P259_L_DM_MLO
+P298_R_CM_CC,298.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P298_R_DM_CC
+P261_R_CM_MLO,261.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P261_R_DM_MLO
+P230_L_CM_MLO,230.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P230_L_DM_MLO
+P315_L_CM_MLO,315.0,L,CESM,4,Heterogenously enhancing mass with irregular margin,MLO,"suspicious mass, irregular",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P315_L_DM_MLO
+P172_L_CM_CC,172.0,L,CESM,5,Three heterogenously enhancing masses ,CC,"malignant mass, multiple, multifocal, speculated",2.0,Malignant,,see report,,,,,,,,,,,P172_L_DM_CC
+P303_L_CM_MLO,303.0,L,CESM,4,Heterogenous enhacement ,MLO,suspicious ,1.0,Malignant,MRM: ILC,,,,,,,,,,,,P303_L_DM_MLO
+P248_L_CM_CC,248.0,L,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,Biopsy: Benign Hyperplasia,,,,,,,,,,,,P248_L_DM_CC
+P271_R_CM_CC,271.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P271_R_DM_CC
+P17_R_CM_MLO,17.0,R,CESM,4,Heterogenous enhacement ,MLO,"suspicious, heterogenous ",1.0,Benign,,Benign,,,,,,,,,,,P17_R_DM_MLO
+P119_L_CM_CC,119.0,L,CESM,5,Multiple heterogenously enhancing masses with indistinct margin,CC,"malignant mass, multiple, indistinct, multicentric",1.0,Malignant,Biopsy: Mixed IDC + mucinous,,,,,,,,,,,,P119_L_DM_CC
+P124_R_CM_CC,124.0,R,CESM,5,Segmental non mass enhancement ,CC,"malignant non mass, segmental",1.0,Malignant,MRM: IDC with intraductal component ,,,,,,,,,,,,P124_R_DM_CC
+P287_L_CM_MLO,287.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,MLO,"malignant mass, microlobulated",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P287_L_DM_MLO
+P88_L_CM_MLO,88.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P88_L_DM_MLO
+P74_R_CM_CC,74.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P74_R_DM_CC
+P243_R_CM_MLO,243.0,R,CESM,5,Heterogenously enhancing mass with surrounding satellites,MLO,"malignant mass, multiple, multifocal, satellites",1.0,Malignant,Malignant but no path,see report,,,,,,,,,,,P243_R_DM_MLO
+P49_L_CM_MLO,49.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P49_L_DM_MLO
+P302_R_CM_CC,302.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P302_R_DM_CC
+P292_R_CM_CC,292.0,R,CESM,5,Irregular heterogenously enhancing mass ,CC,"malignant mass, irregular",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P292_R_DM_CC
+P51_L_CM_MLO,51.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P51_L_DM_MLO
+P323_L_CM_MLO,323.0,L,CESM,4,Heterogenously enhancing mass with circumscribed margin,MLO,"suspicious mass, circumscribed",1.0,Malignant,WLE: Metastatic liposarcoma,,,,,,,,,,,,P323_L_DM_MLO
+P253_L_CM_CC,253.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,,,,,,,,,,,,P253_L_DM_CC
+P113_L_CM_CC,113.0,L,CESM,5,Heterogenously enhancing mass,CC,malignant mass,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P113_L_DM_CC
+P295_L_CM_MLO,295.0,L,CESM,3,Faintly enhancing oval mass with circumscribed margin,MLO,"benign mass, faint, circumscribed, oval",1.0,Benign,,Benign,,,,,,,,,,,P295_L_DM_MLO
+P233_R_CM_MLO,233.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P233_R_DM_MLO
+P153_R_CM_MLO,153.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P153_R_DM_MLO
+P152_L_CM_MLO,152.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and two enhancing satellites ,MLO,"malignant mass, multiple, speculated, multifocal",1.0,Malignant,Biopsy: ILC,,,,,,,,,,,,P152_L_DM_MLO
+P305_R_CM_MLO,305.0,R,CESM,5,Heterogenously enhancing mass and nipple retraction,MLO,"malignant mass, satellites, multifocal, nipple retraction, recurrence ",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P305_R_DM_MLO
+P113_R_CM_MLO,113.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P113_R_DM_MLO
+P225_L_CM_MLO,225.0,L,CESM,4,Heterogenously enhancing mass with speculated margin,MLO,"suspicious mass, speculated, recurrence",1.0,Malignant,see report,,,,,,,,,,,,P225_L_DM_MLO
+P206_R_CM_CC,206.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P206_R_DM_CC
+P12_R_CM_CC,12.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P12_R_DM_CC
+P267_R_CM_CC,267.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P267_R_DM_CC
+P61_R_CM_CC,61.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P61_R_DM_CC
+P176_R_CM_MLO,176.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Malignant,see report,,,,,,,,,,,,P176_R_DM_MLO
+P194_L_CM_CC,194.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P194_L_DM_CC
+P51_R_CM_MLO,51.0,R,CESM,5,Heterogenous regional non mass enhancement ,MLO,"malignant non mass, regional",1.0,Malignant,Cth -> MRM: mixed IDC + ILC,,,,,,,,,,,,P51_R_DM_MLO
+P250_L_CM_CC,250.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P250_L_DM_CC
+P119_R_CM_CC,119.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P119_R_DM_CC
+P219_L_CM_MLO,219.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P219_L_DM_MLO
+P11_R_CM_CC,11.0,R,CESM,3,Enhancing mass with dark internal septations,CC,"benign, mass, fibroadenoma",1.0,Benign,,Benign,,correct,correct,,,,,,,,P11_R_DM_CC
+P152_L_CM_CC,152.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and two enhancing satellites ,CC,"malignant mass, multiple, speculated, multifocal",1.0,Malignant,Biopsy: ILC,,,,,,,,,,,,P152_L_DM_CC
+P227_R_CM_CC,227.0,R,CESM,3,Focal non mass enhancement,CC,focal non mass,1.0,Benign,,Benign,,,,,,,,,,,P227_R_DM_CC
+P199_R_CM_CC,199.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P199_R_DM_CC
+P282_L_CM_MLO,282.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P282_L_DM_MLO
+P323_R_CM_MLO,323.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P323_R_DM_MLO
+P300_R_CM_MLO,300.0,R,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Benign,,,,,,,,,,,P300_R_DM_MLO
+P142_R_CM_MLO,142.0,R,CESM,3,Faintly enhancing oval mass with circumscribed margin,MLO,"benign mass, faint, circumscribed",2.0,Benign,,see report,,,,,,,,,,,P142_R_DM_MLO
+P191_R_CM_CC,191.0,R,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P191_R_DM_CC
+P238_L_CM_MLO,238.0,L,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P238_L_DM_MLO
+P268_R_CM_CC,268.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P268_R_DM_CC
+P200_L_CM_MLO,200.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P200_L_DM_MLO
+P110_R_CM_CC,110.0,R,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P110_R_DM_CC
+P172_L_CM_MLO,172.0,L,CESM,5,Three heterogenously enhancing masses ,MLO,"malignant mass, multiple, multifocal, speculated",2.0,Malignant,,see report,,,,,,,,,,,P172_L_DM_MLO
+P289_L_CM_MLO,289.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P289_L_DM_MLO
+P232_L_CM_MLO,232.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,MLO,"malignant mass, speculated",1.0,Malignant,Malignant but no path,see report,,,,,,,,,,,P232_L_DM_MLO
+P277_L_CM_CC,277.0,L,CESM,5,Irregular heterogenously enhancing mass ,CC,"malignant mass, irregular",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P277_L_DM_CC
+P185_L_CM_MLO,185.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P185_L_DM_MLO
+P318_R_CM_MLO,318.0,R,CESM,5,Two irregular heterogenously enhancing masses,MLO,"malignant mass, multiple, irregular",1.0,Malignant,Cth -> MRM: Invasive mammary ca ,,,,,,,,,,,,P318_R_DM_MLO
+P281_L_CM_CC,281.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P281_L_DM_CC
+P21_L_CM_CC,21.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P21_L_DM_CC
+P20_R_CM_CC,20.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Benign,,Benign,,,,,,,,,,,P20_R_DM_CC
+P216_R_CM_MLO,216.0,R,CESM,5,Multiple heterogenously enhancing masses ,MLO,"malignant mass, multiple, multicentric ",1.0,Malignant,Biopsy: Lymphoplasmacytic lymphoma,,,,,,,,,,,,P216_R_DM_MLO
+P288_R_CM_CC,288.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P288_R_DM_CC
+P189_R_CM_MLO,189.0,R,CESM,3,Faint enhancement,MLO,"faint, inflammatory",1.0,Benign,,Benign,,,,,,,,,,,P189_R_DM_MLO
+P54_L_CM_CC,54.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P54_L_DM_CC
+P254_R_CM_CC,254.0,R,CESM,4,Focal ill defined enhancing mass,CC,suspicous mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P254_R_DM_CC
+P94_L_CM_CC,94.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P94_L_DM_CC
+P184_L_CM_MLO,184.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,see report,,,,,,,,,,,,P184_L_DM_MLO
+P147_R_CM_CC,147.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P147_R_DM_CC
+P126_L_CM_CC,126.0,L,CESM,5,Heterogenously enhancing mass ,CC,"malignant mass, indistinct",1.0,Malignant,Cth -> WLE: IDC ,,,,,,,,,,,,P126_L_DM_CC
+P92_L_CM_CC,92.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P92_L_DM_CC
+P103_L_CM_MLO,103.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P103_L_DM_MLO
+P12_L_CM_MLO,12.0,L,CESM,4,Ductal non mass enhancement$IMLN,MLO,"suspicious, non mass, ductal, imln",1.0,Malignant,WLE: IDC,,,missing,correct,,,,,,,,P12_L_DM_MLO
+P180_R_CM_CC,180.0,R,CESM,5,Heterogenous mass enhancement ,CC,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P180_R_DM_CC
+P101_R_CM_CC,101.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P101_R_DM_CC
+P172_R_CM_CC,172.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",2.0,Benign,,see report,,,,,,,,,,,P172_R_DM_CC
+P282_R_CM_MLO,282.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P282_R_DM_MLO
+P198_L_CM_CC,198.0,L,CESM,5,Postoperative scar with two heterogenously enhancing masses and surrounding satellites,CC,"postoperative, malignant mass, multiple, multicentric, speculated, satellites, recurrence",1.0,Malignant,see report,,,,,,,,,,,,P198_L_DM_CC
+P108_L_CM_CC,108.0,L,CESM,5,Heterogenously enhancing mass ,CC,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P108_L_DM_CC
+P210_L_CM_CC,210.0,L,CESM,2,No mass or non mass enhancement,CC,"benign, mass",1.0,Benign,,Benign,,,,,,,,,,,P210_L_DM_CC
+P118_R_CM_MLO,118.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P118_R_DM_MLO
+P280_R_CM_MLO,280.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,Artifact,,,,,P280_R_DM_MLO
+P301_R_CM_MLO,301.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P301_R_DM_MLO
+P99_L_CM_MLO,99.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P99_L_DM_MLO
+P162_R_CM_MLO,162.0,R,CESM,4,Linear non mass enhancement,MLO,"suspicious non mass, linear",1.0,Malignant,see report,,,,,,,,,,,,P162_R_DM_MLO
+P168_L_CM_MLO,168.0,L,CESM,5,Multiple heterogenously enhancing masses with microlobulated margin,MLO,"malignant mass, multiple, microlobulated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P168_L_DM_MLO
+P280_R_CM_CC,280.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,Artifact,,,,,P280_R_DM_CC
+P213_R_CM_MLO,213.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P213_R_DM_MLO
+P125_L_CM_MLO,125.0,L,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P125_L_DM_MLO
+P304_R_CM_MLO,304.0,R,CESM,5,Heterogenously enhancing mas with speculated margin and linear non mass enhancement reaching to the nipple,MLO,"malignant mass, speculated, non mass, linear",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P304_R_DM_MLO
+P29_R_CM_CC,29.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P29_R_DM_CC
+P207_R_CM_MLO,207.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P207_R_DM_MLO
+P83_L_CM_MLO,83.0,L,CESM,4,Faint enhancement ,MLO,"suspicious, faint ",1.0,Malignant,Cth -> MRM: ILC ? IBC,,,,,,,,,,,,P83_L_DM_MLO
+P162_R_CM_CC,162.0,R,CESM,4,Linear non mass enhancement,CC,"suspicious non mass, linear",1.0,Malignant,see report,,,,,,,,,,,,P162_R_DM_CC
+P21_R_CM_CC,21.0,R,CESM,4,Segmental non mass enhancement ,CC,"suspicious, non mass, segmental",1.0,Benign,Benign: Fat necrosis and periductal mastitis,,,,,,,,,,,,P21_R_DM_CC
+P195_L_CM_CC,195.0,L,CESM,5,Regional non mass enhancement ,CC,"malignant non mass, regional",1.0,Malignant,Cth -> MRM: IDC ?IBC,,,,,,,,,,,,P195_L_DM_CC
+P287_R_CM_MLO,287.0,R,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P287_R_DM_MLO
+P112_L_CM_CC,112.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P112_L_DM_CC
+P82_R_CM_MLO,82.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P82_R_DM_MLO
+P279_L_CM_CC,279.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,Artifact,,,,,P279_L_DM_CC
+P299_R_CM_CC,299.0,R,CESM,5,Irregular heterogenously enhancing mass ,CC,"malignant mass, irregular",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P299_R_DM_CC
+P270_R_CM_MLO,270.0,R,CESM,4,Linear non mass enhancement,MLO,"suspicious non mass, linear",1.0,Benign,Biopsy: Benign Sclerosing adenosis,,,,,,,,,,,,P270_R_DM_MLO
+P307_R_CM_CC,307.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P307_R_DM_CC
+P135_L_CM_MLO,135.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P135_L_DM_MLO
+P288_L_CM_CC,288.0,L,CESM,5,Heterogenous regional non mass enhancement ,CC,"malignant non mass, regional",1.0,Malignant,Skin punch Biopsy: IBC,,,,,,,,,,,,P288_L_DM_CC
+P161_L_CM_MLO,161.0,L,CESM,4,Heterogenously enhancing mass with indistinct margin,MLO,"suspicious mass, indistinct",1.0,Benign,Biopsy: Benign Phyllodes ,,,,,,,,,,,,P161_L_DM_MLO
+P225_R_CM_CC,225.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P225_R_DM_CC
+P296_R_CM_MLO,296.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P296_R_DM_MLO
+P302_L_CM_MLO,302.0,L,CESM,5,Heterogenously ehancing mass with indistinct margin,MLO,"malignant mass, indistinct",1.0,Benign,"Lumpectomy: fibroadenoma, mixed type",,,,,,,,,,,,P302_L_DM_MLO
+P190_L_CM_MLO,190.0,L,CESM,5,Heterogenously enhancing mass with indistinct margin,MLO,"malignant mass, indistinct",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P190_L_DM_MLO
+P249_L_CM_MLO,249.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P249_L_DM_MLO
+P296_L_CM_CC,296.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and multiple irregular faintly enhancing masses,CC,"malignant mass, speculated, multiple, multicentric, irregular, faint",1.0,Malignant,MRM: IDC with DCIS,,,,,,,,,,,,P296_L_DM_CC
+P209_L_CM_MLO,209.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,MLO,"malignant mass, microlobulated",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P209_L_DM_MLO
+P326_L_CM_CC,326.0,L,CESM,4,Segmental non mass enhancement,CC,"suspicious non mass, segmental",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P326_L_DM_CC
+P194_R_CM_CC,194.0,R,CESM,5,Segmental non mass enhancement ,CC,"malignant non mass, segmental",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P194_R_DM_CC
+P69_L_CM_CC,69.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P69_L_DM_CC
+P145_L_CM_MLO,145.0,L,CESM,5,Clumped linear non mass enhancement,MLO,"malignant non mass, clumped linear",1.0,Malignant,WLE:IDC ,,,,,,,,,,,,P145_L_DM_MLO
+P12_L_CM_CC,12.0,L,CESM,4,Ductal non mass enhancement$IMLN,CC,"suspicious, non mass, ductal, imln",1.0,Malignant,WLE: IDC,,,missing,correct,,,,,,,,P12_L_DM_CC
+P146_L_CM_CC,146.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P146_L_DM_CC
+P183_L_CM_CC,183.0,L,CESM,4,Heterogenous mass enhancement,CC,suspicious mass,1.0,Malignant,"Cth -> MRM: IDC , IBC",,,,,,,,,,,,P183_L_DM_CC
+P274_R_CM_CC,274.0,R,CESM,4,Linear non mass enhancement,CC,"suspicious non mass, linear",1.0,Benign,,Benign,,,,,,,,,,,P274_R_DM_CC
+P229_R_CM_MLO,229.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P229_R_DM_MLO
+P259_R_CM_MLO,259.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P259_R_DM_MLO
+P195_R_CM_CC,195.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P195_R_DM_CC
+P125_R_CM_CC,125.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P125_R_DM_CC
+P263_L_CM_MLO,263.0,L,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P263_L_DM_MLO
+P267_R_CM_MLO,267.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P267_R_DM_MLO
+P186_L_CM_CC,186.0,L,CESM,2,Non enhancement,CC,postoperative,1.0,Malignant,WLE: Residual IDC,see report,,,,,,,,,,,P186_L_DM_CC
+P239_R_CM_CC,239.0,R,CESM,5,Heterogenously enhancing masses,CC,"malignant mass, multiple, multicentric",1.0,Malignant,Biopsy: IDC ? IBC,,,,,,,,,,,,P239_R_DM_CC
+P81_R_CM_MLO,81.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P81_R_DM_MLO
+P88_R_CM_MLO,88.0,R,CESM,3,Focus enhancement ,MLO,"benign, focus",1.0,Benign,,Benign,,,,,,,,,,,P88_R_DM_MLO
+P66_R_CM_MLO,66.0,R,CESM,5,Heterogenously enhancing irregular mass with speculated margin ,MLO,"malignant mass, speculated ",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P66_R_DM_MLO
+P166_L_CM_CC,166.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P166_L_DM_CC
+P187_L_CM_CC,187.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P187_L_DM_CC
+P249_R_CM_MLO,249.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites and enhancing foci,MLO,"malignant mass, multiple, multifocal, speculated, satellites",1.0,Malignant,WLE: IDC with mucinous component,,,,,,,,,,,,P249_R_DM_MLO
+P202_R_CM_CC,202.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,,,,,,,,,,,,P202_R_DM_CC
+P228_R_CM_CC,228.0,R,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P228_R_DM_CC
+P248_R_CM_MLO,248.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P248_R_DM_MLO
+P282_R_CM_CC,282.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P282_R_DM_CC
+P45_R_CM_MLO,45.0,R,CESM,3,Non enhancement ,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P45_R_DM_MLO
+P230_L_CM_CC,230.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P230_L_DM_CC
+P262_L_CM_MLO,262.0,L,CESM,4,Heterogenously enhancing mass with indistinct margin,MLO,"suspicious mass, indistinct",1.0,Malignant,see report,,,,,,,,,,,,P262_L_DM_MLO
+P308_R_CM_MLO,308.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P308_R_DM_MLO
+P216_R_CM_CC,216.0,R,CESM,5,Multiple heterogenously enhancing masses ,CC,"malignant mass, multiple, multicentric ",1.0,Malignant,Biopsy: Lymphoplasmacytic lymphoma,,,,,,,,,,,,P216_R_DM_CC
+P189_L_CM_CC,189.0,L,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P189_L_DM_CC
+P258_L_CM_CC,258.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P258_L_DM_CC
+P83_R_CM_MLO,83.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P83_R_DM_MLO
+P55_L_CM_CC,55.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P55_L_DM_CC
+P102_R_CM_MLO,102.0,R,CESM,5,Irregular rim enhancing mass,MLO,"malignant mass, irregular rim",1.0,Malignant,Cth -> WLE: Mucinous ca,,,,,,,,,,,,P102_R_DM_MLO
+P56_R_CM_CC,56.0,R,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P56_R_DM_CC
+P319_L_CM_MLO,319.0,L,CESM,2,Glandular enhancement,MLO,hamartoma,1.0,Benign,,Benign,,,,,,,,,,,P319_L_DM_MLO
+P264_R_CM_CC,264.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P264_R_DM_CC
+P26_L_CM_CC,26.0,L,CESM,5,Homogenous regional non mass enhancement,CC,"malignant non mass, regional",1.0,Benign,No path,,,,,,,,,,,,P26_L_DM_CC
+P96_L_CM_MLO,96.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P96_L_DM_MLO
+P99_R_CM_MLO,99.0,R,CESM,5,Heterogenously enhancing mass with microlobulated margin,MLO,"malignant mass, microlobulated",1.0,Malignant,MRM: IDC with medullary features,,,,,,,,,,,,P99_R_DM_MLO
+P242_R_CM_MLO,242.0,R,CESM,5,Two heterogenously enhancing masses with speculated margin,MLO,"malignant mass, multiple, speculated, recurrence",1.0,Malignant,MRM: IDC,see report,,,,,,,,,,,P242_R_DM_MLO
+P291_R_CM_CC,291.0,R,CESM,5,Two irregular heterogenously enhancing masses with intraductal extension and surrounding satellites and nipple retraction,CC,"malignant mass, multiple, multifoca, irregular, ductal extension, satellites, nipple retraction",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P291_R_DM_CC
+P88_L_CM_CC,88.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P88_L_DM_CC
+P234_L_CM_CC,234.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P234_L_DM_CC
+P114_L_CM_CC,114.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P114_L_DM_CC
+P288_L_CM_MLO,288.0,L,CESM,5,Heterogenous regional non mass enhancement ,MLO,"malignant non mass, regional",1.0,Malignant,Skin punch Biopsy: IBC,,,,,,,,,,,,P288_L_DM_MLO
+P6_R_CM_CC,6.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P6_R_DM_CC
+P269_R_CM_MLO,269.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P269_R_DM_MLO
+P170_L_CM_CC,170.0,L,CESM,2,Stippled enhancement ,CC,"adenosis, stippled",1.0,Benign,,Benign,,,,,,,,,,,P170_L_DM_CC
+P208_R_CM_MLO,208.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Malignant,see report,,,,,,,,,,,,P208_R_DM_MLO
+P105_L_CM_MLO,105.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P105_L_DM_MLO
+P273_L_CM_MLO,273.0,L,CESM,5,Heterogenously enhancing mass ,MLO,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P273_L_DM_MLO
+P100_R_CM_MLO,100.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P100_R_DM_MLO
+P136_R_CM_CC,136.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P136_R_DM_CC
+P18_R_CM_MLO,18.0,R,CESM,2,Focus enhancement ,MLO,"benign, masses, multiple",1.0,Benign,,Benign,,,,,,,,,,,P18_R_DM_MLO
+P242_L_CM_CC,242.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P242_L_DM_CC
+P194_R_CM_MLO,194.0,R,CESM,5,Segmental non mass enhancement ,MLO,"malignant non mass, segmental",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P194_R_DM_MLO
+P321_R_CM_CC,321.0,R,CESM,4,Irregular heterogenously enhancing mass and multiple regions,CC,"posoperative, surgical clips, suspicious architectural distortion, nodular density, multicentric, microcalcifications.clusters",1.0,Malignant,MRM: Invasive mammary ca,,,,,,,,,,,,P321_R_DM_CC
+P188_R_CM_MLO,188.0,R,CESM,5,Heterogenously enhancing mass with speculated margin,MLO,"malignant mass, speculated",2.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P188_R_DM_MLO
+P161_R_CM_MLO,161.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement, cyst",1.0,Benign,,Benign,,,,,,,,,,,P161_R_DM_MLO
+P167_L_CM_MLO,167.0,L,CESM,3,Ductal non mass enhancement,MLO,"benign non mass, ductal",1.0,Benign,,see report,,,,,,,,,,,P167_L_DM_MLO
+P299_R_CM_MLO,299.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,----,----,,,,,,,,,,,P299_R_DM_MLO
+P271_L_CM_CC,271.0,L,CESM,5,Three heterogenously enhancing masses with speculated margin,CC,"malignant mass, multiple, speculated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P271_L_DM_CC
+P181_R_CM_MLO,181.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P181_R_DM_MLO
+P61_R_CM_MLO,61.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P61_R_DM_MLO
+P277_R_CM_CC,277.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P277_R_DM_CC
+P128_R_CM_CC,128.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P128_R_DM_CC
+P151_L_CM_CC,151.0,L,CESM,2,Flap with no enhancement ,CC,"postoperative, flap",2.0,Benign,,Postoperative,,,,,,,,,,,P151_L_DM_CC
+P281_L_CM_MLO2,281.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P281_L_DM_MLO2
+P7_R_CM_CC,7.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,correct,correct,,,,,,,,P7_R_DM_CC
+P325_R_CM_CC,325.0,R,CESM,3,Homogenously enhancing mass with circumscribed margin$IMLN,CC,"benign mass, fibroadenoma",1.0,Benign,,Benign,,,,,,,,,,,P325_R_DM_CC
+P67_L_CM_CC,67.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P67_L_DM_CC
+P301_L_CM_MLO,301.0,L,CESM,5,Two irregular heterogenously enhancing masses and rim enhancing mass ,MLO,"malignant mass, multiple, irregular, rim",1.0,Benign,Biopsy: Benign periductal granulomatous  mastitis with microabscess formation,,,,,,,,,,,,P301_L_DM_MLO
+P62_R_CM_MLO,62.0,R,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P62_R_DM_MLO
+P223_R_CM_MLO,223.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P223_R_DM_MLO
+P37_R_CM_CC,37.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P37_R_DM_CC
+P37_R_CM_MLO,37.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P37_R_DM_MLO
+P257_L_CM_MLO,257.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P257_L_DM_MLO
+P74_L_CM_MLO,74.0,L,CESM,5,Heterogenously enhancing mass with ductal non mass enhancement,MLO,"malignant mass, suspicious non mass, ductal",1.0,Malignant,see report,,,,,,,,,,,,P74_L_DM_MLO
+P235_R_CM_CC,235.0,R,CESM,3$2,Homogenously enhancing mass with circumscribed margin$Foci of enhancement,CC,"benign mass, circumscribed, homogenous, adenosis",2.0,Benign,,Benign,,,,,,,,,,,P235_R_DM_CC
+P63_R_CM_CC,63.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P63_R_DM_CC
+P84_L_CM_MLO,84.0,L,CESM,5,Segmental non mass enhancement ,MLO,"malignant non mass, segmental",1.0,Malignant,Cth -> MRM: ILC ? IBC,,,,,,,,,,,,P84_L_DM_MLO
+P290_L_CM_MLO,290.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P290_L_DM_MLO
+P138_L_CM_CC,138.0,L,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P138_L_DM_CC
+P259_L_CM_CC,259.0,L,CESM,5,Two irregular heterogenously enhancing masses ,CC,"malignant mass, multiple, multifocal, irregular",1.0,Malignant,Cth -> WLE: ILC,,,,,,,,,,,,P259_L_DM_CC
+P74_R_CM_MLO,74.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P74_R_DM_MLO
+P35_L_CM_MLO,35.0,L,CESM,2,Non enhancement ,MLO,"benign mass, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P35_L_DM_MLO
+P42_R_CM_MLO,42.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P42_R_DM_MLO
+P301_R_CM_CC,301.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P301_R_DM_CC
+P257_R_CM_MLO,257.0,R,CESM,5,Heterogenously enhancing mass with speculated margin ,MLO,"malignant mass, speculated",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P257_R_DM_MLO
+P258_R_CM_CC,258.0,R,CESM,5,Linear non mass enhancement,CC,"malignant non mass, linear",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P258_R_DM_CC
+P311_L_CM_MLO,311.0,L,CESM,3,Homogenously enhancing mass with circumscribed margin,MLO,"benign mass, circumscribed, homogenous",1.0,Benign,,Benign,,,,,,,,,,,P311_L_DM_MLO
+P262_R_CM_CC,262.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P262_R_DM_CC
+P101_L_CM_MLO,101.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P101_L_DM_MLO
+P296_L_CM_MLO,296.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and multiple irregular faintly enhancing masses,MLO,"malignant mass, speculated, multiple, multicentric, irregular, faint",1.0,Malignant,MRM: IDC with DCIS,,,,,,,,,,,,P296_L_DM_MLO
+P274_R_CM_MLO,274.0,R,CESM,4,Linear non mass enhancement,MLO,"suspicious non mass, linear",1.0,Benign,,Benign,,,,,,,,,,,P274_R_DM_MLO
+P295_R_CM_CC,295.0,R,CESM,5,Heterogenous regional non mass enhancement ,CC,"malignant non mass, regional",1.0,Benign,Biopsy: benign duct ectaisa with chronic non specific periductal mastitis ,,,,,,,,,,,,P295_R_DM_CC
+P228_L_CM_MLO,228.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P228_L_DM_MLO
+P211_R_CM_CC,211.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P211_R_DM_CC
+P123_L_CM_MLO,123.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P123_L_DM_MLO
+P291_L_CM_MLO,291.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P291_L_DM_MLO
+P316_L_CM_CC,316.0,L,CESM,5,Heterogenously enhancing mass with speculated margin and skin retraction,CC,"malignant mass, speculated, skin retraction",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P316_L_DM_CC
+P324_R_CM_MLO,324.0,R,CESM,3,Diffuse heterogenous non mass enhancement with air/dark density,MLO,"edema, air, clustered ring",1.0,Benign,Benign: Fibroepithelial polyp,,,,,,,,,,,,P324_R_DM_MLO
+P118_R_CM_CC,118.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P118_R_DM_CC
+P236_L_CM_CC,236.0,L,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P236_L_DM_CC
+P285_R_CM_CC,285.0,R,CESM,5,Heterogenously enhancing mass and regional non mass enhancement ,CC,"malignant mass, non mass, regional",1.0,Malignant,Cth -> Malignant but no path ? IBC,,,,,,,,,,,,P285_R_DM_CC
+P255_L_CM_CC,255.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,CC,"malignant mass, microlobulated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P255_L_DM_CC
+P30_R_CM_MLO,30.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P30_R_DM_MLO
+P231_R_CM_MLO,231.0,R,CESM,3,Focal non mass enhancement,MLO,focal non mass,1.0,Benign,,Benign,,,,,,,,,,,P231_R_DM_MLO
+P197_L_CM_MLO,197.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P197_L_DM_MLO
+P149_L_CM_CC,149.0,L,CESM,2,Stippled enhancement ,CC,"adenosis, stippled",1.0,Benign,,Benign,,,,,,,,,,,P149_L_DM_CC
+P21_R_CM_MLO,21.0,R,CESM,4,Segmental non mass enhancement ,MLO,"suspicious, non mass, segmental",1.0,Benign,Benign: Fat necrosis and periductal mastitis,,,,,,,,,,,,P21_R_DM_MLO
+P223_L_CM_MLO,223.0,L,CESM,5,Multiple heterogenously enhancing masses with surrounding satellites,MLO,"malignant mass, multiple, multifocal, satellites",1.0,Malignant,Cth -> WLE: IDC,,,,,,,,,,,,P223_L_DM_MLO
+P117_R_CM_CC,117.0,R,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P117_R_DM_CC
+P62_L_CM_CC,62.0,L,CESM,2,IMLN ,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P62_L_DM_CC
+P251_L_CM_MLO,251.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P251_L_DM_MLO
+P293_L_CM_MLO,293.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P293_L_DM_MLO
+P93_R_CM_CC,93.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P93_R_DM_CC
+P324_L_CM_CC,324.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P324_L_DM_CC
+P294_R_CM_MLO,294.0,R,CESM,2,Non enhancement,MLO,benign,1.0,Benign,,Benign,,,,,,,,,,,P294_R_DM_MLO
+P2_R_CM_MLO,2.0,R,CESM,3,Multiple homogenously enhancing  masses ,MLO,"benign, masses, homogenous",2.0,Benign,,Benign,,missing,correct,,,,,,,,P2_R_DM_MLO
+P192_R_CM_MLO,192.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P192_R_DM_MLO
+P59_L_CM_MLO,59.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P59_L_DM_MLO
+P73_R_CM_CC,73.0,R,CESM,4,Linear non mass enhancement,CC,"suspicious non mass, linear",1.0,Benign,MDE: Duct ectaisa with fibrocystic mastopathy,,,,,,,,,,,,P73_R_DM_CC
+P186_R_CM_CC,186.0,R,CESM,2,Non enhancement,CC,postoperative,1.0,Benign,,Benign,,,,,,,,,,,P186_R_DM_CC
+P284_R_CM_MLO,284.0,R,CESM,2,IMLN,MLO,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P284_R_DM_MLO
+P145_L_CM_CC,145.0,L,CESM,5,Clumped linear non mass enhancement,CC,"malignant non mass, clumped linear",1.0,Malignant,WLE:IDC ,,,,,,,,,,,,P145_L_DM_CC
+P278_R_CM_MLO,278.0,R,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P278_R_DM_MLO
+P236_R_CM_MLO,236.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P236_R_DM_MLO
+P161_L_CM_CC,161.0,L,CESM,4,Heterogenously enhancing mass with indistinct margin,CC,"suspicious mass, indistinct",1.0,Benign,Biopsy: Benign Phyllodes ,,,,,,,,,,,,P161_L_DM_CC
+P215_L_CM_CC,215.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,CC,"malignant mass, speculated ",1.0,Malignant,MRM: Mixed IDC + ILC,,,,,,,,,,,,P215_L_DM_CC
+P263_R_CM_CC,263.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and non mass enhancement and nipple retraction,CC,"malignant mass, speculated, non mass, nipple retraction",1.0,Malignant,Biopsy: Invasive mammary ca,,,,,,,,,,,,P263_R_DM_CC
+P217_L_CM_CC,217.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,see report,,,,,,,,,,,,P217_L_DM_CC
+P71_L_CM_MLO,71.0,L,CESM,3,Focus enhancement ,MLO,"benign, focus",1.0,Benign,,see report,,,,,,,,,,,P71_L_DM_MLO
+P22_L_CM_CC,22.0,L,CESM,5,Regional non mass enhancement ,CC,"granulomatus mastitis, non mass, regional",1.0,Benign,,Benign,,,,,,,,,,,P22_L_DM_CC
+P82_L_CM_MLO,82.0,L,CESM,5,Multiple homogenously enhancing  masses with speculated margin,MLO,"malgnant mass, multiple, homogenous, speculated, multicentric",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P82_L_DM_MLO
+P287_R_CM_CC,287.0,R,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P287_R_DM_CC
+P56_R_CM_MLO,56.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P56_R_DM_MLO
+P239_R_CM_MLO,239.0,R,CESM,5,Heterogenously enhancing masses,MLO,"malignant mass, multiple, multicentric",1.0,Malignant,Biopsy: IDC ? IBC,,,,,,,,,,,,P239_R_DM_MLO
+P44_L_CM_CC,44.0,L,CESM,2,Non enhancement ,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P44_L_DM_CC
+P95_R_CM_MLO,95.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P95_R_DM_MLO
+P202_L_CM_MLO,202.0,L,CESM,4,Irregular focus mass enhancement,MLO,"suspicious mass, focus, irregular",1.0,Malignant,see report,,,,,,,,,,,,P202_L_DM_MLO
+P280_L_CM_CC,280.0,L,CESM,5,Multiple irregular heterogenously enhancing masses ,CC,"malignant mass, multiple, irregular",1.0,Malignant,Cth -> MRM: Mixed IDC + ILC,,,,,,,,,,,,P280_L_DM_CC
+P318_L_CM_MLO,318.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P318_L_DM_MLO
+P174_L_CM_MLO,174.0,L,CESM,3,Enhancing mass with circumscribed margin ,MLO,"benign mass, circumscribed",1.0,Malignant,MRM: IDC with DCIS,,,,,,,,,,,,P174_L_DM_MLO
+P35_R_CM_MLO,35.0,R,CESM,2,Non enhancement ,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P35_R_DM_MLO
+P223_L_CM_CC,223.0,L,CESM,5,Multiple heterogenously enhancing masses with surrounding satellites,CC,"malignant mass, multiple, multifocal, satellites",1.0,Malignant,Cth -> WLE: IDC,,,,,,,,,,,,P223_L_DM_CC
+P207_L_CM_MLO,207.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,MLO,"malignant mass, speculated",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P207_L_DM_MLO
+P180_L_CM_MLO,180.0,L,CESM,2,Foci of enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P180_L_DM_MLO
+P224_L_CM_CC,224.0,L,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P224_L_DM_CC
+P323_L_CM_CC,323.0,L,CESM,4,Heterogenously enhancing mass with circumscribed margin,CC,"suspicious mass, circumscribed",1.0,Malignant,WLE: Metastatic liposarcoma,,,,,,,,,,,,P323_L_DM_CC
+P177_R_CM_CC,177.0,R,CESM,5,Heterogenous mass enhancement and nipple retraction,CC,"malignant mass, nipple retraction",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P177_R_DM_CC
+P226_R_CM_CC,226.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P226_R_DM_CC
+P271_L_CM_MLO,271.0,L,CESM,5,Three heterogenously enhancing masses with speculated margin,MLO,"malignant mass, multiple, speculated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P271_L_DM_MLO
+P301_L_CM_CC,301.0,L,CESM,5,Two irregular heterogenously enhancing masses and rim enhancing mass ,CC,"malignant mass, multiple, irregular, rim",1.0,Benign,Biopsy: Benign periductal granulomatous  mastitis with microabscess formation,,,,,,,,,,,,P301_L_DM_CC
+P61_L_CM_MLO,61.0,L,CESM,4,Irregular heterogenous enhancement,MLO,suspicious mass,1.0,Benign,WLE: Benign fibrofatty muscular tissue most probably intramuscular lipoma,,,,,,?,,,,,,P61_L_DM_MLO
+P278_R_CM_CC,278.0,R,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P278_R_DM_CC
+P180_R_CM_MLO,180.0,R,CESM,5,Heterogenous mass enhancement,MLO,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P180_R_DM_MLO
+P68_L_CM_CC,68.0,L,CESM,2,Non enhancement ,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P68_L_DM_CC
+P76_R_CM_MLO,76.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P76_R_DM_MLO
+P40_L_CM_CC,40.0,L,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P40_L_DM_CC
+P147_R_CM_MLO,147.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P147_R_DM_MLO
+P190_R_CM_MLO,190.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P190_R_DM_MLO
+P173_L_CM_CC,173.0,L,CESM,2,Flap,CC,flap,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P173_L_DM_CC
+P89_L_CM_CC,89.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P89_L_DM_CC
+P311_R_CM_CC,311.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and multiple surrounding satellites and enhancing foci,CC,"malignant mass, speculated, satellites, multifocal",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P311_R_DM_CC
+P255_L_CM_MLO,255.0,L,CESM,5,Heterogenously enhancing mass with microlobulated margin,MLO,"malignant mass, microlobulated",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P255_L_DM_MLO
+P70_L_CM_CC,70.0,L,CESM,4,Linear non mass enhancement,CC,"suspicious non mass, linear",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P70_L_DM_CC
+P69_L_CM_MLO,69.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,2.0,Normal,,Normal,,,,,,,,,,,P69_L_DM_MLO
+P297_L_CM_MLO,297.0,L,CESM,5,Regional non mass enhancement ,MLO,"malignant non mass, regional",1.0,Malignant,Biopsy: Undifferentiated ca ,,,,,,,,,,,,P297_L_DM_MLO
+P126_R_CM_MLO,126.0,R,CESM,4,Rim enhancing mass,MLO,"suspicous mass, rim",1.0,Normal,,Normal,,,,,,,,,,,P126_R_DM_MLO
+P32_R_CM_MLO,32.0,R,CESM,4,Clumped segmental non mass enhancement ,MLO,"suspicious non mass, clumped, segmental",1.0,Malignant,MRM: solid and comedo DCIS with fci of stromal microinvasion,,,,,,,,,,,,P32_R_DM_MLO
+P203_R_CM_CC,203.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P203_R_DM_CC
+P23_R_CM_CC,23.0,R,CESM,2,Non enhancement ,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P23_R_DM_CC
+P163_R_CM_CC,163.0,R,CESM,5,Heterogenously enhancing mass with microlobulated margin and ductal extension,CC,"malignant mass, microlobulated, ductal extension",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P163_R_DM_CC
+P60_L_CM_MLO,60.0,L,CESM,5,Irregular rim enhancement,MLO,"malignant, irregular rim",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P60_L_DM_MLO
+P325_L_CM_CC,325.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P325_L_DM_CC
+P315_L_CM_CC,315.0,L,CESM,4,Heterogenously enhancing mass with irregular margin,CC,"suspicious mass, irregular",1.0,Malignant,WLE: IDC,,,,,,,,,,,,P315_L_DM_CC
+P284_L_CM_CC,284.0,L,CESM,3,Non enhancement,CC,benign ,1.0,Benign,WLE: Benign fibrocystic mastopathy with papillary hyperplasia,,,,,,,,,,,,P284_L_DM_CC
+P76_L_CM_CC,76.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P76_L_DM_CC
+P241_L_CM_CC,241.0,L,CESM,3,Non enhancement,CC,"benign, non enhancement",1.0,Benign,see report,,,,,,,,,,,,P241_L_DM_CC
+P311_L_CM_CC,311.0,L,CESM,3,Homogenously enhancing mass with circumscribed margin,CC,"benign mass, circumscribed, homogenous",1.0,Benign,,Benign,,,,,,,,,,,P311_L_DM_CC
+P24_R_CM_MLO,24.0,R,CESM,5,Heterogenously enhancing mass with surrounding satellites,MLO,"malignant mass, multiple, microlobulated, suspicious microcalcifications",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P24_R_DM_MLO
+P66_L_CM_CC,66.0,L,CESM,5,Heterogenously enhancing irregular mass with speculated margin ,CC,"malignant mass, speculated ",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P66_L_DM_CC
+P220_R_CM_CC,220.0,R,CESM,5,Multiple heterogenously enhancing masses ,CC,"malignant mass, multiple, multientric",1.0,Malignant,"MRM: IDC, IBC",,,,,,,,,,,,P220_R_DM_CC
+P111_R_CM_MLO,111.0,R,CESM,4,Heterogenously enhancing mass ,MLO,suspicious mass,1.0,Malignant,WLE: IDC,,,,,,,,,,,,P111_R_DM_MLO
+P310_R_CM_MLO,310.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P310_R_DM_MLO
+P245_R_CM_CC,245.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P245_R_DM_CC
+P284_R_CM_CC,284.0,R,CESM,2,IMLN,CC,"benign, IMLN",1.0,Benign,,Benign,,,,,,,,,,,P284_R_DM_CC
+P132_L_CM_CC,132.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P132_L_DM_CC
+P92_R_CM_MLO,92.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P92_R_DM_MLO
+P79_L_CM_CC,79.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P79_L_DM_CC
+P308_L_CM_MLO,308.0,L,CESM,4,Heterogenously enhancing mass ,MLO,"postoperative, suspicious mass",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P308_L_DM_MLO
+P107_R_CM_MLO,107.0,R,CESM,5,Heterogenously enhancing mass and non mass enhancement ,MLO,"malignant mass, malignant non mass ",1.0,Malignant,MRM: ILC,,,,,,,,,,,,P107_R_DM_MLO
+P176_L_CM_CC,176.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,,,,,,,,,,,,P176_L_DM_CC
+P206_L_CM_CC,206.0,L,CESM,4,Heterogenously enhancing mass with indistinct margin,CC,"suspicious mass, indistinct",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P206_L_DM_CC
+P173_R_CM_MLO,173.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P173_R_DM_MLO
+P268_R_CM_MLO,268.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P268_R_DM_MLO
+P281_R_CM_MLO,281.0,R,CESM,4,Faint irregular heterogenously enhancing mass,MLO,suspicious mass,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P281_R_DM_MLO
+P86_R_CM_MLO,86.0,R,CESM,4,Focal heterogenous non mass enhancement,MLO,"suspicious non mass, focal",1.0,Benign,Lumpectomy: Benign granulomatous mastits and abscess,,,,,,,,,,,,P86_R_DM_MLO
+P264_L_CM_MLO,264.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,MLO,"malignant mass, speculated",1.0,Malignant,Biopsy: IDC,,,,,,,,,,,,P264_L_DM_MLO
+P10_L_CM_MLO,10.0,L,CESM,2,Foci of enhancement ,MLO,"adenosis, foci",1.0,Benign,,Benign,,correct,correct,,,,,,,,P10_L_DM_MLO
+P120_L_CM_MLO,120.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P120_L_DM_MLO
+P313_L_CM_CC,313.0,L,CESM,5,Heterogenously enhancing irregular mass and multiple enhancing nodules,CC,"malignant mass, multiple",1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P313_L_DM_CC
+P248_L_CM_MLO,248.0,L,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,Biopsy: Benign Hyperplasia,,,,,,,,,,,,P248_L_DM_MLO
+P192_R_CM_CC,192.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P192_R_DM_CC
+P43_R_CM_MLO,43.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P43_R_DM_MLO
+P238_R_CM_CC,238.0,R,CESM,3,Homogenously enhancing lesion with circumscribed margin,CC,"benign mass, circumscribed, fibroadenoma",1.0,Benign,WLE: Benign Fibroadenoma,,,,,,,,,,,,P238_R_DM_CC
+P263_R_CM_MLO,263.0,R,CESM,5,Heterogenously enhancing mass with speculated margin and non mass enhancement and nipple retraction,MLO,"malignant mass, speculated, non mass, nipple retraction",1.0,Malignant,Biopsy: Invasive mammary ca,,,,,,,,,,,,P263_R_DM_MLO
+P148_R_CM_CC,148.0,R,CESM,2,Non enhancement ,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P148_R_DM_CC
+P243_R_CM_CC,243.0,R,CESM,5,Heterogenously enhancing mass with surrounding satellites,CC,"malignant mass, multiple, multifocal, satellites",1.0,Malignant,Malignant but no path,see report,,,,,,,,,,,P243_R_DM_CC
+P209_R_CM_CC,209.0,R,CESM,2,Foci of enhancement,CC,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P209_R_DM_CC
+P220_L_CM_CC,220.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P220_L_DM_CC
+P226_L_CM_CC,226.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P226_L_DM_CC
+P52_R_CM_CC,52.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P52_R_DM_CC
+P81_R_CM_CC,81.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P81_R_DM_CC
+P312_R_CM_CC,312.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P312_R_DM_CC
+P170_R_CM_CC,170.0,R,CESM,2,Stippled enhancement ,CC,"adenosis, stippled",1.0,Benign,,Benign,,,,,,,,,,,P170_R_DM_CC
+P55_L_CM_MLO,55.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P55_L_DM_MLO
+P125_L_CM_CC,125.0,L,CESM,2,Non enhancement,CC,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P125_L_DM_CC
+P159_L_CM_CC,159.0,L,CESM,4,Faintly enhancing mass ,CC,"suspicious mass, faint",1.0,Malignant,see report,,,,,,,,,,,,P159_L_DM_CC
+P46_R_CM_MLO,46.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P46_R_DM_MLO
+P237_L_CM_CC,237.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P237_L_DM_CC
+P148_L_CM_MLO,148.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P148_L_DM_MLO
+P149_R_CM_MLO,149.0,R,CESM,2,Stippled enhancement ,MLO,"adenosis, stippled",1.0,Malignant,WLE:IDC ,see report,,,,,,,,,,,P149_R_DM_MLO
+P38_R_CM_MLO,38.0,R,CESM,4,Homogenously enhancing mass with speculated margin,MLO,suspicious mass,1.0,Malignant,Malignant but no path,,,,,,,,,,,,P38_R_DM_MLO
+P315_R_CM_CC,315.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P315_R_DM_CC
+P104_R_CM_CC,104.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P104_R_DM_CC
+P34_R_CM_MLO,34.0,R,CESM,4,Segmental non mass enhancement ,MLO,"suspicious non mass, segmental",1.0,Malignant,Malignant but no path,,,,,,,,,,,,P34_R_DM_MLO
+P31_L_CM_MLO,31.0,L,CESM,2,Stippled enhancement,MLO,adenosis,1.0,Benign,,Benign,,,,,,,,,,,P31_L_DM_MLO
+P98_L_CM_MLO,98.0,L,CESM,4,Clustered ring enhancment,MLO,"suspicious non mass, clustered ring",1.0,Benign,WLE: Benign granulomatous mastitis and abscess,,,,,,,,,,,,P98_L_DM_MLO
+P79_L_CM_MLO,79.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P79_L_DM_MLO
+P40_R_CM_MLO,40.0,R,CESM,3,Regular rim enhancement,MLO,"benign mass, regular rim",1.0,Benign,,Benign,,,,,,,,,,,P40_R_DM_MLO
+P133_R_CM_CC,133.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P133_R_DM_CC
+P139_R_CM_CC,139.0,R,CESM,2,Faint enhancement,CC,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P139_R_DM_CC
+P29_L_CM_CC,29.0,L,CESM,4,Segmental non mass enhancement ,CC,"suspicious non mass, segmental",1.0,Malignant,MRM: IDC,,,,,,,,,,,,P29_L_DM_CC
+P225_R_CM_MLO,225.0,R,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P225_R_DM_MLO
+P164_L_CM_CC,164.0,L,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P164_L_DM_CC
+P149_R_CM_CC,149.0,R,CESM,2,Stippled enhancement ,CC,"adenosis, stippled",1.0,Malignant,WLE:IDC ,see report,,,,,,,,,,,P149_R_DM_CC
+P170_L_CM_MLO,170.0,L,CESM,2,Stippled enhancement ,MLO,"adenosis, stippled",1.0,Benign,,Benign,,,,,,,,,,,P170_L_DM_MLO
+P232_L_CM_CC,232.0,L,CESM,5,Heterogenously enhancing mass with speculated margin,CC,"malignant mass, speculated",1.0,Malignant,Malignant but no path,see report,,,,,,,,,,,P232_L_DM_CC
+P300_L_CM_MLO,300.0,L,CESM,1,No mass or non mass enhancement,MLO,normal,1.0,Normal,,Normal,,,,,,,,,,,P300_L_DM_MLO
+P312_L_CM_CC,312.0,L,CESM,5,Heterogenously enhancing mass ,CC,malignant mass,1.0,Malignant,MRM: IDC,,,,,,,,,,,,P312_L_DM_CC
+P19_L_CM_CC,19.0,L,CESM,2,Non enhancement ,CC,"benign, mass",1.0,Benign,,Benign,,,,,,,,,,,P19_L_DM_CC
+P100_L_CM_MLO,100.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P100_L_DM_MLO
+P153_L_CM_MLO,153.0,L,CESM,2,Non enhancement ,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P153_L_DM_MLO
+P286_R_CM_CC,286.0,R,CESM,5,Segmental non mass enhancement,CC,"malignant non mass, segmental",1.0,Malignant,Cth -> MRM: IDC ? IBC,,,,,,,,,,,,P286_R_DM_CC
+P316_R_CM_MLO,316.0,R,CESM,3,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P316_R_DM_MLO
+P96_R_CM_MLO,96.0,R,CESM,5,Heterogenously enhancing mass,MLO,malignant mass,1.0,Malignant,Cth -> MRM: IDC,,,,,,,,,,,,P96_R_DM_MLO
+P228_R_CM_MLO,228.0,R,CESM,2,Non enhancement,MLO,"benign, non enhancement",1.0,Benign,,Benign,,,,,,,,,,,P228_R_DM_MLO
+P90_L_CM_CC,90.0,L,CESM,1,No mass or non mass enhancement,CC,normal,2.0,Normal,,Normal,,,,,,,,,,,P90_L_DM_CC
+P94_R_CM_MLO,94.0,R,CESM,5,Homogenously enhancing mass with speculated margin,MLO,"malignant mass, homogenous, speculated",2.0,Malignant,Premalignant WLE: fibrocystic mastopathy with atypical ductal hyperplasia ,,,,,,,,,,,,P94_R_DM_MLO
+P141_R_CM_CC,141.0,R,CESM,1,No mass or non mass enhancement,CC,normal,1.0,Normal,,Normal,,,,,,,,,,,P141_R_DM_CC
+P236_L_CM_MLO,236.0,L,CESM,2,Non enhancement,MLO,postoperative,1.0,Benign,,Postoperative,,,,,,,,,,,P236_L_DM_MLO
+P285_L_CM_MLO,285.0,L,CESM,3,Homogenously enhancing mass with circumscribed margin,MLO,"benign mass, circumscribed, fibroadenoma",1.0,Benign,,Benign,,,,,,,,,,,P285_L_DM_MLO

@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 
-dataset_df = pd.read_csv('./data/all_data_path_cc_mlo.csv')
+dataset_df = pd.read_csv('./data/all_data_path_dm_cm_is_mal.csv')
 
 
 
@@ -16,8 +16,8 @@ if shuffle:
 
 def get_sparse_labels_mapping(y):
     labels = np.zeros(y.shape[0],dtype=int)
-    class_counts = np.zeros(3,dtype=int)
-    mapping = {'Normal': 0, 'Benign': 1, 'Malignant': 2}
+    class_counts = np.zeros(2,dtype=int)
+    mapping = {'Non Malignant': 0, 'Malignant': 1}
     index = 0
     for label in y:
         labels[index] = mapping[label]
@@ -28,7 +28,7 @@ def get_sparse_labels_mapping(y):
 
 def get_sparse_labels(y):
     labels = np.zeros(y.shape[0],dtype=int)
-    class_counts = np.zeros(3,dtype=int)
+    class_counts = np.zeros(2,dtype=int)
     index = 0
     for label in y:
         label = np.array(str(label).split("$"), dtype=np.int) - 1
@@ -49,7 +49,7 @@ def add_row(dict,df_row):
         dict[key].append(df_row[key])
 
 def split_train_test(dataset_df):
-    labels= dataset_df['Pathology Classification/ Follow up']
+    labels= dataset_df['is_malignant']
     sparse_labels,class_counts=get_sparse_labels_mapping(labels)
 
     test_fraction_count = (class_counts*test_set_fraction).astype(int)
@@ -58,7 +58,7 @@ def split_train_test(dataset_df):
 
     train_dict = make_dict(dataset_df)
     test_dict = make_dict(dataset_df)
-    test_count_so_far = np.zeros(3)
+    test_count_so_far = np.zeros(2)
     index=0
     for label in sparse_labels:
         if test_count_so_far[label] < test_fraction_count[label]:
@@ -76,6 +76,6 @@ train_dict,test_dict = split_train_test(dataset_df)
 training_df=pd.DataFrame(train_dict)
 testing_df=pd.DataFrame(test_dict)
 
-training_df.to_csv(os.path.join("./data","training_set_path_cc_mlo_2.csv"), index=False)
+training_df.to_csv(os.path.join("./data","training_set_path_dm_cm_is_mal.csv"), index=False)
 
-testing_df.to_csv(os.path.join("./data","testing_set_path_cc_mlo_2.csv"), index=False)
+testing_df.to_csv(os.path.join("./data","testing_set_path_dm_cm_is_mal.csv"), index=False)
