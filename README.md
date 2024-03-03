@@ -13,8 +13,9 @@ We built a multiview deep learning model (MVCM) to classify and segment malignan
 
 
 ## Installation & Usage
-*The project was tested on a virtual environment of python 3.7, pip 23.2.1, and MacOS*
-- pip install -r requirements.txt
+*The project was tested on a virtual environment of python 3.7, pip 24.0, and MacOS*
+
+- pip install -r full_requirements.txt (or pip install -r requirements.txt if there are errors because of using a different operating system, as requirements.txt only contains the main dependencies and pip will fetch the compatible sub-dependencies, but it will be slower)
 - modify configs.py to point to the training/testing sets & control the training flow
 - python train.py
 - python test.py (to evaluate the model)
