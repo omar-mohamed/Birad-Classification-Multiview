@@ -2,7 +2,7 @@
 
 This is the implementation of the MVCM model mentioned in our paper 'Validation of artificial intelligence contrast mammography in diagnosis of breast cancer: Relationship to histopathological results'.
 
-Paper link [here](https://www.sciencedirect.com/science/article/abs/pii/S0720048X24001086).
+Paper link [here](https://doi.org/10.1016/j.ejrad.2024.111392).
 
 We built a multiview deep learning model (MVCM) to classify and segment malignancy in contrast-enhanced mammography images. The model was trained on the [CDD-CESM Dataset](doi.org/10.1038/s41597-022-01238-0).
 
