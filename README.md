@@ -4,7 +4,7 @@ This is the implementation of the MVCM model mentioned in our paper 'Validation 
 
 Paper link [here](https://doi.org/10.1016/j.ejrad.2024.111392).
 
-We built a multiview deep learning model (MVCM) to classify and segment malignancy in contrast-enhanced mammography images. The model was trained on the [CDD-CESM Dataset](doi.org/10.1038/s41597-022-01238-0).
+We built a multiview deep learning model (MVCM) to classify and segment malignancy in contrast-enhanced mammography images. The model was trained on the [CDD-CESM Dataset](https://doi.org/10.1038/s41597-022-01238-0).
 
 ![image](https://github.com/omar-mohamed/Birad-Classification-Multiview/assets/6074821/f517816e-5c03-4b38-8ee4-af304b5a1be4)
 
