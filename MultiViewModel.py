@@ -21,11 +21,11 @@ class MultiViewModel(tf.keras.Model):
         self.classifier = get_classifier(output_shape[1:], FLAGS.multi_label_classification, FLAGS.classifier_layer_sizes,
                                          len(FLAGS.classes))
 
-    def call(self, images):
+    def call(self, images, training=None, mask=None):
         cm_images = images[0]
         dm_images = images[1]
-        cm_features = self.visual_model1(cm_images)
-        dm_features = self.visual_model2(dm_images)
+        cm_features = self.visual_model1(cm_images, training=training, mask=mask)
+        dm_features = self.visual_model2(dm_images, training=training, mask=mask)
         features = tf.concat([cm_features, dm_features], self.concat_dimension)
-        pred = self.classifier(features)
+        pred = self.classifier(features, training=training, mask=mask)
         return pred
