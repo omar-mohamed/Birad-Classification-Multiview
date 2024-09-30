@@ -199,9 +199,9 @@ class ModelFactory:
         return loaded_model
 
     def get_model(self, FLAGS):
-        if 'Efficient' in FLAGS.visual_model_name:
+        if 'Efficient' in FLAGS.visual_model_name and FLAGS.use_imagenet_weights is True and FLAGS.load_model_path is None:
             base_weights = "noisy-student"
-        elif FLAGS.use_imagenet_weights is True:
+        elif FLAGS.use_imagenet_weights is True and FLAGS.load_model_path is None and not FLAGS.use_chexnet_weights:
             base_weights = "imagenet"
         else:
             base_weights = None
