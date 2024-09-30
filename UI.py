@@ -3,6 +3,7 @@ import shutil
 import uuid
 
 import pydicom as pydicom
+import pyrebase
 from skimage.transform import resize
 from visual_model_selector import ModelFactory
 
@@ -16,6 +17,33 @@ from PIL import ImageTk, Image
 import numpy as np
 from gradcam import GradCAM
 import cv2
+import threading
+
+
+# Firebase Configuration
+firebase_config = {
+  'apiKey': "",
+  'authDomain': "",
+  'projectId': "",
+  'storageBucket': "",
+  'messagingSenderId': "",
+  'appId': "",
+  'measurementId': "",
+  "databaseURL": ""
+};
+
+# Initialize Firebase
+firebase = pyrebase.initialize_app(firebase_config)
+auth = firebase.auth()
+
+# Function to authenticate user with Firebase
+def firebase_login(email, password):
+    try:
+        auth.sign_in_with_email_and_password(email, password)
+        return True
+    except Exception as e:
+        print(f"Authentication failed: {e}")
+        return False
 
 GRADCAM_THRESH = 50
 WHITE_THRESH = 85
@@ -162,7 +190,45 @@ def predict(input):
 # predict(sample_input)
 
 
-# Assuming the rest of your code like MultiViewModel, ModelFactory, and FLAGS is already defined.
+class LoginPage:
+    def __init__(self, root, main_app):
+        self.root = root
+        self.main_app = main_app
+
+        # Login UI components
+        self.root.title("Login")
+        # self.root.geometry("300x150")
+
+        self.email_label = Label(root, text="Email")
+        self.email_label.pack(pady=5)
+        self.email_entry = tk.Entry(root, width=30)
+        self.email_entry.pack(pady=5)
+
+        self.password_label = Label(root, text="Password")
+        self.password_label.pack(pady=5)
+        self.password_entry = tk.Entry(root, show="*", width=30)
+        self.password_entry.pack(pady=5)
+
+        self.login_button = Button(root, text="Login", command=self.login)
+        self.login_button.pack(pady=10)
+
+        self.message_label = Label(root, text="")
+        self.message_label.pack()
+
+    def login(self):
+        email = self.email_entry.get()
+        password = self.password_entry.get()
+
+        if firebase_login(email, password):
+            self.clear_login_ui()  # Clear the login components
+            self.main_app(self.root)  # Initialize the main app in the same window
+        else:
+            self.message_label.config(text="Invalid email or password", fg="red")
+
+    def clear_login_ui(self):
+        # Destroy all widgets in the login window
+        for widget in self.root.winfo_children():
+            widget.destroy()
 
 class ImagePredictorApp:
     def __init__(self, root):
@@ -194,8 +260,9 @@ class ImagePredictorApp:
         self.upload_dm_button = Button(root, text="Upload DM Image", command=self.load_dm_image)
         self.upload_dm_button.grid(row=2, column=1)
 
-        self.predict_button = Button(root, text="Predict", command=self.predict)
+        self.predict_button = Button(root, text="Predict", command=self.start_prediction)
         self.predict_button.grid(row=3, column=0, columnspan=2)
+        self.predict_button.config(state="disabled")
 
         self.result_label = Label(root, text="", font=("Arial", 16))
         self.result_label.grid(row=4, column=0, columnspan=2)
@@ -203,28 +270,45 @@ class ImagePredictorApp:
         self.initializing_label = Label(root, text="Initializing...", font=("Arial", 16), fg="blue")
         self.initializing_label.grid(row=5, column=0, columnspan=2)
 
+        self.processing_label = Label(root, text="", font=("Arial", 16), fg="blue")
+        self.processing_label.grid(row=5, column=0, columnspan=2)
+        self.processing_label.grid_remove()  # Initially hidden
+
+        self.error_label = Label(root, text="", font=("Arial", 16), fg="red")
+        self.error_label.grid(row=6, column=0, columnspan=2)
+        self.error_label.grid_remove()  # Initially hidden
+
+        # Toggle for ONLY_HIGHLIGHTS
+        self.highlight_var = tk.BooleanVar(value=ONLY_HIGHLIGHTS)
+        self.highlight_checkbox = tk.Checkbutton(root, text="Only Highlights", variable=self.highlight_var, command=self.toggle_highlights)
+        self.highlight_checkbox.grid(row=7, column=0, columnspan=2)
+
         # Adding the small button for showing the research info
         self.info_button = Button(root, text="Info", command=self.show_info_dialog)
-        self.info_button.grid(row=6, column=0, columnspan=2)
+        self.info_button.grid(row=8, column=0, columnspan=2)
 
-        # Update the UI immediately to show the initializing label
-        self.root.update()
+        # Start loading the model in a separate thread
+        threading.Thread(target=self.initialize_model, daemon=True).start()
 
-        # Load model in the initializer
-        self.initialize_model()
+    def toggle_highlights(self):
+        global ONLY_HIGHLIGHTS
+        ONLY_HIGHLIGHTS = self.highlight_var.get()  # Update the global variable
 
+    def show_error(self, message):
+        self.error_label.config(text=message)
+        self.error_label.grid()
+    def hide_error(self):
+        self.error_label.grid_remove()
     def initialize_model(self):
-        # Load the model
-        load_model()
-
-        # Update the UI after loading the model
-        self.model_loaded()
+        try:
+            load_model()
+            self.model_loaded()
+        except Exception as e:
+            self.error_label.config(text=f"Error while loading the model: {str(e)}")
+            self.error_label.grid()
 
     def model_loaded(self):
-        # Remove the initializing label after model is loaded
         self.initializing_label.grid_remove()
-
-        # Enable buttons after model is loaded
         self.upload_cm_button.config(state="normal")
         self.upload_dm_button.config(state="normal")
         self.predict_button.config(state="normal")
@@ -272,20 +356,30 @@ class ImagePredictorApp:
             self.root.destroy()
 
     def load_cm_image(self):
-        self.image_cm_path = filedialog.askopenfilename(title="Select CM Image",
-                                                        filetypes=[("Image Files", "*.jpg *.png *.dcm")])
-        if self.image_cm_path:
-            # Convert PNG to JPG if needed and save it to the tmp folder
-            self.image_cm_path = handle_and_convert_image(self.image_cm_path)
-            self.show_image(self.image_cm_path, self.img_cm_label)
+        try:
+            self.hide_error()
+            self.image_cm_path = filedialog.askopenfilename(title="Select CM Image",
+                                                            filetypes=[("Image Files", "*.jpg *.png *.dcm")])
+            if self.image_cm_path:
+                # Convert PNG to JPG if needed and save it to the tmp folder
+                self.image_cm_path = handle_and_convert_image(self.image_cm_path)
+                self.show_image(self.image_cm_path, self.img_cm_label)
+        except Exception as e:
+            self.show_error(f"Error while loading image: {str(e)}")
 
     def load_dm_image(self):
-        self.image_dm_path = filedialog.askopenfilename(title="Select DM Image",
-                                                        filetypes=[("Image Files", "*.jpg *.png *.dcm")])
-        if self.image_dm_path:
-            # Convert PNG to JPG if needed and save it to the tmp folder
-            self.image_dm_path = handle_and_convert_image(self.image_dm_path)
-            self.show_image(self.image_dm_path, self.img_dm_label)
+        try:
+            self.hide_error()
+            self.image_dm_path = filedialog.askopenfilename(title="Select DM Image",
+                                                            filetypes=[("Image Files", "*.jpg *.png *.dcm")])
+            if self.image_dm_path:
+                # Convert PNG to JPG if needed and save it to the tmp folder
+                self.image_dm_path = handle_and_convert_image(self.image_dm_path)
+                self.show_image(self.image_dm_path, self.img_dm_label)
+        except Exception as e:
+            self.show_error(f"Error while loading image: {str(e)}")
+
+
 
     def show_image(self, image_path, label):
         img = Image.open(image_path)
@@ -294,50 +388,74 @@ class ImagePredictorApp:
         label.config(image=img_tk)
         label.image = img_tk
 
+    def start_prediction(self):
+        # Show the processing label
+        self.processing_label.config(text="Processing...")
+        self.processing_label.grid()
+
+        # Start the prediction in a separate thread
+        threading.Thread(target=self.predict, daemon=True).start()
+
     def predict(self):
-        if self.image_cm_path and self.image_dm_path:
-            # Prepare the input data
-            input_data = prepare_model_input(self.image_cm_path, self.image_dm_path)
-            print("Input shape:", input_data.shape)
+        try:
+            if self.image_cm_path and self.image_dm_path:
+                self.hide_error()
+                self.predict_button.config(state="disabled")
+                self.result_label.config(text="")
+                # Prepare the input data
+                input_data = prepare_model_input(self.image_cm_path, self.image_dm_path)
+                print("Input shape:", input_data.shape)
 
-            # Make predictions
-            y_hat = visual_model(input_data, training=False)
-            predicted_class = 0 if y_hat[0, 0] > 0.5 else 1
-            label = f"{FLAGS.classes[predicted_class]}: {y_hat[0][1]:.2f}"
+                # Make predictions
+                y_hat = visual_model(input_data, training=False)
+                predicted_class = 0 if y_hat[0, 0] > 0.5 else 1
+                label = f"{FLAGS.classes[predicted_class]}: {y_hat[0][1]:.2f}"
 
-            # Generate Grad-CAM heatmaps
-            cam = GradCAM(visual_model, predicted_class)
-            heatmap1, heatmap2 = cam.compute_heatmap(input_data)
+                # Generate Grad-CAM heatmaps
+                cam = GradCAM(visual_model, predicted_class)
+                heatmap1, heatmap2 = cam.compute_heatmap(input_data)
 
-            # Apply heatmap and create output images
-            output_image_cm = get_heatmap_image(self.image_cm_path, heatmap1, cam)
-            output_image_dm = get_heatmap_image(self.image_dm_path, heatmap2, cam)
+                # Apply heatmap and create output images
+                output_image_cm = get_heatmap_image(self.image_cm_path, heatmap1, cam)
+                output_image_dm = get_heatmap_image(self.image_dm_path, heatmap2, cam)
 
-            # Ensure tmp directory exists
-            tmp_dir = "tmp"
-            if not os.path.exists(tmp_dir):
-                os.makedirs(tmp_dir)
+                # Ensure tmp directory exists
+                tmp_dir = "tmp"
+                if not os.path.exists(tmp_dir):
+                    os.makedirs(tmp_dir)
 
-            # Create unique filenames for the heatmap images
-            temp_cm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_cm.jpg")
-            temp_dm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_dm.jpg")
+                # Create unique filenames for the heatmap images
+                temp_cm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_cm.jpg")
+                temp_dm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_dm.jpg")
 
-            # Save the heatmap images in the tmp folder
-            cv2.imwrite(temp_cm_path, output_image_cm)
-            cv2.imwrite(temp_dm_path, output_image_dm)
+                # Save the heatmap images in the tmp folder
+                cv2.imwrite(temp_cm_path, output_image_cm)
+                cv2.imwrite(temp_dm_path, output_image_dm)
 
-            # Update the images in the UI
-            self.show_image(temp_cm_path, self.img_cm_label)
-            self.show_image(temp_dm_path, self.img_dm_label)
+                # Update the images in the UI
+                self.show_image(temp_cm_path, self.img_cm_label)
+                self.show_image(temp_dm_path, self.img_dm_label)
 
-            if y_hat[0, 0] > 0.5:
-                self.result_label.config(text=label, fg="green")
+                if y_hat[0, 0] > 0.5:
+                    self.result_label.config(text=label, fg="green")
+                else:
+                    self.result_label.config(text=label, fg="red")
             else:
-                self.result_label.config(text=label, fg="red")
-        else:
-            self.result_label.config(text="Please upload both images.", fg="orange")
+                self.result_label.config(text="Please upload both images.", fg="orange")
+        except Exception as e:
+            self.show_error(f"Error while predicting: {str(e)}")
+        finally:
+            self.predict_button.config(state="normal")
+            self.processing_label.grid_remove()
 
-# Create the GUI window
-root = tk.Tk()
-app = ImagePredictorApp(root)
+def start_main_app(root):
+    ImagePredictorApp(root)
+
+
+
+# Create the login window
+root = tk.Tk()  # Create the main root window
+login_page = LoginPage(root, start_main_app)  # Pass the main app as a callback for successful login
 root.mainloop()
+
+ # Start the main event loop
