@@ -201,7 +201,7 @@ class ModelFactory:
     def get_model(self, FLAGS):
         if 'Efficient' in FLAGS.visual_model_name and FLAGS.use_imagenet_weights is True and FLAGS.load_model_path is None:
             base_weights = "noisy-student"
-        elif FLAGS.use_imagenet_weights is True and FLAGS.load_model_path is None and not FLAGS.use_chexnet_weights:
+        elif FLAGS.use_imagenet_weights is True and FLAGS.load_model_path is None and (not FLAGS.use_chexnet_weights or FLAGS.visual_model_name != 'DenseNet121'):
             base_weights = "imagenet"
         else:
             base_weights = None
