@@ -29,7 +29,7 @@ firebase_config = {
   'messagingSenderId': "",
   'appId': "",
   'measurementId': "",
-  "databaseURL": ""
+  "databaseURL": ""  # Dummy databaseURL
 };
 
 # Initialize Firebase
@@ -45,6 +45,7 @@ def firebase_login(email, password):
         print(f"Authentication failed: {e}")
         return False
 
+TMP_DIR = 'tmp'
 GRADCAM_THRESH = 50
 WHITE_THRESH = 85
 CONFIDENCE_THRESH = 0.50
@@ -94,12 +95,11 @@ def get_heatmap_image(image_path, heatmap, cam):
     return output
 
 def save_image_to_tmp_folder(img):
-    tmp_dir = "tmp"
-    if not os.path.exists(tmp_dir):
-        os.makedirs(tmp_dir)
+    if not os.path.exists(TMP_DIR):
+        os.makedirs(TMP_DIR)
 
     jpg_image_name = f"{uuid.uuid4()}.jpg"
-    jpg_image_path = os.path.join(tmp_dir, jpg_image_name)
+    jpg_image_path = os.path.join(TMP_DIR, jpg_image_name)
 
     # Save the converted image in the tmp directory
     img.save(jpg_image_path, "JPEG")
@@ -341,9 +341,8 @@ class ImagePredictorApp:
 
     # Function to clear the tmp folder
     def cleanup_tmp_folder(self):
-        tmp_dir = "tmp"
-        if os.path.exists(tmp_dir):
-            shutil.rmtree(tmp_dir)
+        if os.path.exists(TMP_DIR):
+            shutil.rmtree(TMP_DIR)
             print("Temporary folder cleared.")
 
     # Function triggered when closing the window
@@ -399,6 +398,10 @@ class ImagePredictorApp:
     def predict(self):
         try:
             if self.image_cm_path and self.image_dm_path:
+                # Ensure tmp directory exists
+                if not os.path.exists(TMP_DIR):
+                    os.makedirs(TMP_DIR)
+
                 self.hide_error()
                 self.predict_button.config(state="disabled")
                 self.result_label.config(text="")
@@ -419,14 +422,9 @@ class ImagePredictorApp:
                 output_image_cm = get_heatmap_image(self.image_cm_path, heatmap1, cam)
                 output_image_dm = get_heatmap_image(self.image_dm_path, heatmap2, cam)
 
-                # Ensure tmp directory exists
-                tmp_dir = "tmp"
-                if not os.path.exists(tmp_dir):
-                    os.makedirs(tmp_dir)
-
                 # Create unique filenames for the heatmap images
-                temp_cm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_cm.jpg")
-                temp_dm_path = os.path.join(tmp_dir, f"{uuid.uuid4()}_dm.jpg")
+                temp_cm_path = os.path.join(TMP_DIR, f"{uuid.uuid4()}_cm.jpg")
+                temp_dm_path = os.path.join(TMP_DIR, f"{uuid.uuid4()}_dm.jpg")
 
                 # Save the heatmap images in the tmp folder
                 cv2.imwrite(temp_cm_path, output_image_cm)
